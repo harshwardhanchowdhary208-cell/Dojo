@@ -1,3 +1,6 @@
+# Question: What problem does this code solve?
+# Add your solution here.
+
 num=int(input("Enter a non-negative integer: "))
 total = 0
 while num > 0:

@@ -1,3 +1,6 @@
+# Question: What problem does this code solve?
+# Add your solution here.
+
 sub1 = float(input("Enter Subject 1 marks: "))
 sub2 = float(input("Enter Subject 2 marks: "))
 sub3 = float(input("Enter Subject 3 marks: "))

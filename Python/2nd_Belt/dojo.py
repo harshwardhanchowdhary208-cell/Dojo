@@ -1,3 +1,6 @@
+# Question: What problem does this code solve?
+# Add your solution here.
+
 def calculate_age(present_year, birth_year):
     age = present_year - birth_year
     return age

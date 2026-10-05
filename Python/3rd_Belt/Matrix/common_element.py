@@ -1,3 +1,6 @@
+# Question: What problem does this code solve?
+# Add your solution here.
+
 def find_intersection(arr1, arr2):
     i, j = 0, 1 
     result = []

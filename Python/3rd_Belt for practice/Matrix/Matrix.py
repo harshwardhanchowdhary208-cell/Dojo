@@ -1,3 +1,6 @@
+# Question: What problem does this code solve?
+# Add your solution here.
+
 import numpy as np
 
 A = np.array([[1, 2], [3, 4]])

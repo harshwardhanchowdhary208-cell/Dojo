@@ -1,3 +1,6 @@
+// Question: What problem does this code solve?
+// Add your solution here.
+
 const fs = require('fs');
 const a = fs.readFileSync(0, 'utf-8').trim();
 

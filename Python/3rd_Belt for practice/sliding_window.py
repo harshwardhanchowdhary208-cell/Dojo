@@ -1,3 +1,6 @@
+# Question: What problem does this code solve?
+# Add your solution here.
+
 n = int(input())
 arr = list(map(int, input().split()))
 t = int(input())

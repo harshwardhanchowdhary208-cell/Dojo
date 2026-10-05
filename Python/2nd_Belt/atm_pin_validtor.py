@@ -1,3 +1,6 @@
+# Question: What problem does this code solve?
+# Add your solution here.
+
 correct_pin = "4321"
 attempts = 0
 max_attempts = 3

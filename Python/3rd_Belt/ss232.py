@@ -1,3 +1,6 @@
+# Question: What problem does this code solve?
+# Add your solution here.
+
 # Read the full string and the word to remove
 S = input()
 W = input()

@@ -1,3 +1,6 @@
+# Question: What problem does this code solve?
+# Add your solution here.
+
 def is_magic_square(matrix, N):
     target_sum = sum(matrix[0])
     

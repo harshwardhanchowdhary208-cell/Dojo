@@ -1,3 +1,6 @@
+# Question: What problem does this code solve?
+# Add your solution here.
+
 # Read the number of rows (n) and columns (m)
 n, m = map(int, input().split())
 

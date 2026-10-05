@@ -1,3 +1,6 @@
+# Question: What problem does this code solve?
+# Add your solution here.
+
 def sum_digits_until_single(num):
 
     while num >= 10:

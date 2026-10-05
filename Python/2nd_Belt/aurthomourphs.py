@@ -1,3 +1,6 @@
+# Question: What problem does this code solve?
+# Add your solution here.
+
 def is_automorphic(n):
     square = n ** 2
     

@@ -1,3 +1,6 @@
+# Question: What problem does this code solve?
+# Add your solution here.
+
 def find_largest_index(arr):
     if not arr:
         return -1  # Return -1 if array is empty

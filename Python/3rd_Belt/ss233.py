@@ -1,3 +1,6 @@
+# Question: What problem does this code solve?
+# Add your solution here.
+
 def compress_string(s):
     # Handle empty string edge case
     if not s:

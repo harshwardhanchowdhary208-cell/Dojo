@@ -1,3 +1,6 @@
+# Question: What problem does this code solve?
+# Add your solution here.
+
 a = [3, 4, 1, 7, 9, 1]
 
 res = [] 

@@ -1,3 +1,6 @@
+# Question: What problem does this code solve?
+# Add your solution here.
+
 def print_pascals_triangle(n):
     triangle = []
     for i in range(n):

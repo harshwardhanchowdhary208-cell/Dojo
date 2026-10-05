@@ -1,3 +1,6 @@
+// Question: What problem does this code solve?
+// Add your solution here.
+
 function canSellCookie(bills) {
   let five = 0;
   let ten = 0;

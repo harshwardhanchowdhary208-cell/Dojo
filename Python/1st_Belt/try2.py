@@ -1,3 +1,6 @@
+# Question: What problem does this code solve?
+# Add your solution here.
+
 x=input()
 if x in'QWERTYUIOPASDFGHJKLZXCVBNM':
     print("Upper case")

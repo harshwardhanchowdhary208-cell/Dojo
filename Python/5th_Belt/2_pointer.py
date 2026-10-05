@@ -1,3 +1,6 @@
+# Question: What problem does this code solve?
+# Add your solution here.
+
 def solve():
     n, target = map(int, input().split())
     arr = list(map(int, input().split()))

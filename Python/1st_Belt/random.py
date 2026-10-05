@@ -1,3 +1,6 @@
+# Question: What problem does this code solve?
+# Add your solution here.
+
 x = int(input())
 i = 0
 while i < x and x%2==0:

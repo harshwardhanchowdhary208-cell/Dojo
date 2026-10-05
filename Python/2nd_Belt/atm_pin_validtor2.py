@@ -1,3 +1,6 @@
+# Question: What problem does this code solve?
+# Add your solution here.
+
 for i  in range(3):
  password="4321"
  user_password=input()

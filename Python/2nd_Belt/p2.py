@@ -1,3 +1,6 @@
+# Question: What problem does this code solve?
+# Add your solution here.
+
 def pendulumArrangement(arr):
     n = len(arr)
 

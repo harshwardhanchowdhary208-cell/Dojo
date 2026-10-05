@@ -1,3 +1,6 @@
+# Question: What problem does this code solve?
+# Add your solution here.
+
 def trace_of_matrix(matrix):
     return sum(matrix[i][i] for i in range(len(matrix)))
 

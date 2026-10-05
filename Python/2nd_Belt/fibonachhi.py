@@ -1,3 +1,6 @@
+# Question: What problem does this code solve?
+# Add your solution here.
+
 n = input()
 a, b = n[0], n[1]
 for i in range(int(n)):

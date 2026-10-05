@@ -1,3 +1,6 @@
+# Question: What problem does this code solve?
+# Add your solution here.
+
 num = int(input("Enter the number:"))
 
 def is_palindrome_math(num: int) -> bool:

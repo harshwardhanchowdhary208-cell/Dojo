@@ -1,3 +1,6 @@
+# Question: What problem does this code solve?
+# Add your solution here.
+
 def print_reversed_matrix(rows, cols, matrix):
     for row in matrix[::-1]:
         print(" ".join(map(str, row)))

@@ -1,3 +1,6 @@
+# Question: What problem does this code solve?
+# Add your solution here.
+
 rows = int(input("Enter rows: "))
 cols = int(input("Enter cols: "))
 matrix1 = [list(map(int, input(f"Row {i+1}: ").split())) for i in range(rows)]

@@ -1,3 +1,6 @@
+# Question: What problem does this code solve?
+# Add your solution here.
+
 n = int(input())
 arr = list(map(int, input().split()))
 unique_elements = set(arr)

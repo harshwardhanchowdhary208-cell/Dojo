@@ -1,3 +1,6 @@
+# Question: What problem does this code solve?
+# Add your solution here.
+
 # Python3 code to demonstrate
 # Suffix List Sum
 # using list comprehension + sum() + list slicing

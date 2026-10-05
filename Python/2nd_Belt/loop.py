@@ -1,3 +1,6 @@
+# Question: What problem does this code solve?
+# Add your solution here.
+
 n=input()
 for i in range(1):
     print("*"*int(n))

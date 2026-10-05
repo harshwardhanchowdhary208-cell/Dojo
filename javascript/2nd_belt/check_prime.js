@@ -1,3 +1,6 @@
+// Question: What problem does this code solve?
+// Add your solution here.
+
 function isPrimeOptimized(num) {
     if (num <= 1) return false;
     if (num <= 3) return true; // 2 and 3 are prime

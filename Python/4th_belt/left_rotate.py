@@ -1,3 +1,6 @@
+# Question: What problem does this code solve?
+# Add your solution here.
+
 from typing import List
 
 def left_rotate(arr: List[int], d: int) -> None:

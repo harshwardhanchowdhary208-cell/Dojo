@@ -1,3 +1,6 @@
+# Question: What problem does this code solve?
+# Add your solution here.
+
 m,n,matrix = input() #This line is wrong but written to avoid erroe the correct code for m,n and matrix whould be given in dojo itself 
 # Calculate the total sum of all elements in the matrix
 total_sum = sum(sum(row) for row in matrix)

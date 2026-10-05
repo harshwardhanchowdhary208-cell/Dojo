@@ -1,3 +1,6 @@
+// Question: What problem does this code solve?
+// Add your solution here.
+
 const fs = require('fs');
 
 // Read input, split by whitespace, and convert each item to a Number

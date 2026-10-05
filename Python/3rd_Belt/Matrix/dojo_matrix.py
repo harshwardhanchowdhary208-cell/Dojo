@@ -1,3 +1,6 @@
+# Question: What problem does this code solve?
+# Add your solution here.
+
 def is_lower_triangular_matrix(matrix):
     m = len(matrix)
     if m == 0:

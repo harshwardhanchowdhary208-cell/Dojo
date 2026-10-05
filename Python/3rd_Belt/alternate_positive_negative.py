@@ -1,3 +1,6 @@
+# Question: What problem does this code solve?
+# Add your solution here.
+
 def rearrange(arr):
     # Separate positive (including 0) and negative numbers
     pos = [x for x in arr if x >= 0]

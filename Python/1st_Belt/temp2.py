@@ -1,3 +1,6 @@
+# Question: What problem does this code solve?
+# Add your solution here.
+
 temp = float(input("Enter the temperature value: "))
 
 unit = input("Enter the unit (C for Celsius, F for Fahrenheit): ").strip().upper()
