@@ -1,15 +1,17 @@
 # Question: What problem does this code solve?
-# Add your solution here.
+# Compute the average value of all elements in a matrix.
 
-m,n,matrix = input() #This line is wrong but written to avoid erroe the correct code for m,n and matrix whould be given in dojo itself 
-# Calculate the total sum of all elements in the matrix
-total_sum = sum(sum(row) for row in matrix)
 
-# Calculate the total number of elements
-total_elements = m * n
+def average_of_matrix(matrix):
+    if not matrix or not matrix[0]:
+        return 0.0
 
-# Compute the average
-average = total_sum / total_elements
+    total_sum = sum(sum(row) for row in matrix)
+    total_elements = sum(len(row) for row in matrix)
+    return total_sum / total_elements
 
-# Print the result rounded to one decimal place
-print(f"{average:.1f}")
+
+if __name__ == "__main__":
+    rows, cols = map(int, input().split())
+    matrix = [list(map(int, input().split())) for _ in range(rows)]
+    print(f"{average_of_matrix(matrix):.1f}")

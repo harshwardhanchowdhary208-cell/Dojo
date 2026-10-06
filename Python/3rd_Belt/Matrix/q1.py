@@ -1,24 +1,29 @@
 # Question: What problem does this code solve?
-# Add your solution here.
+# Add two matrices of equal size.
 
-rows = int(input("Enter rows: "))
-cols = int(input("Enter cols: "))
-matrix1 = [list(map(int, input(f"Row {i+1}: ").split())) for i in range(rows)]
-rows = int(input("Enter rows: "))
-cols = int(input("Enter cols: "))
-matrix2 = [list(map(int, input(f"Row {i+1}: ").split())) for i in range(rows)]
 
 def add_matrices(matrix1, matrix2):
+    if len(matrix1) != len(matrix2) or len(matrix1[0]) != len(matrix2[0]):
+        raise ValueError("Matrices must have the same dimensions")
 
     rows = len(matrix1)
     cols = len(matrix1[0])
+    result = [[0 for _ in range(cols)] for _ in range(rows)]
 
-    result = [[0 for _ in range(cols)] for _ in range(rows)]    
-    
     for i in range(rows):
         for j in range(cols):
             result[i][j] = matrix1[i][j] + matrix2[i][j]
-    
+
     return result
 
-print(add_matrices(matrix1, matrix2))
+
+if __name__ == "__main__":
+    rows, cols = map(int, input().split())
+    matrix1 = [list(map(int, input().split())) for _ in range(rows)]
+
+    rows2, cols2 = map(int, input().split())
+    matrix2 = [list(map(int, input().split())) for _ in range(rows2)]
+
+    result = add_matrices(matrix1, matrix2)
+    for row in result:
+        print(*row)
