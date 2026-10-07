@@ -1,4 +1,4 @@
-# Question: What problem does this code solve?
+# Question: Calculate a person's age from the present year and birth year.
 # Add your solution here.
 
 def celsius_to_fahrenheit(celsius):

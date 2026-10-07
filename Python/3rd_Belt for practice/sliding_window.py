@@ -1,4 +1,4 @@
-# Question: What problem does this code solve?
+# Question: Use the sliding window technique to solve the array problem.
 # Add your solution here.
 
 n = int(input())

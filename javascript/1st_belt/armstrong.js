@@ -1,4 +1,4 @@
-// Question: What problem does this code solve?
+// Question: Check whether a number is an Armstrong number.
 // Add your solution here.
 
 const fs = require('fs');

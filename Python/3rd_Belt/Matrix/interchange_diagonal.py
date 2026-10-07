@@ -1,4 +1,4 @@
-# Question: What problem does this code solve?
+# Question: Swap the main diagonal and anti-diagonal elements of a square matrix.
 # Add your solution here.
 
 import sys

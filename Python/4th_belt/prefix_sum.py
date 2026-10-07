@@ -1,4 +1,4 @@
-# Question: What problem does this code solve?
+# Question: Compute the prefix sum of each element in the array.
 # Add your solution here.
 
 a = [3, 4, 1, 7, 9, 1]

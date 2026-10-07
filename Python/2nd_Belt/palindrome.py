@@ -1,4 +1,4 @@
-# Question: What problem does this code solve?
+# Question: Check whether a string or number is a palindrome.
 # Add your solution here.
 
 x=input('Enter the number:')

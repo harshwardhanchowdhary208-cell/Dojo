@@ -1,4 +1,4 @@
-// Question: What problem does this code solve?
+// Question: Count the number of vowels in the given string.
 // Add your solution here.
 
 const fs = require('fs');

@@ -1,4 +1,4 @@
-# Question: What problem does this code solve?
+# Question: Generate or process a random number as required by the task.
 # Add your solution here.
 
 x = int(input())

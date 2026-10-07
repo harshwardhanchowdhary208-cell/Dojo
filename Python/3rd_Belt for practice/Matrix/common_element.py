@@ -1,2 +1,2 @@
-# Question: What problem does this code solve?
+# Question: Find the common elements between two sorted arrays.
 # Add your solution here.

@@ -1,4 +1,4 @@
-# Question: What problem does this code solve?
+# Question: Compute the prefix sum of each element in the array.
 # Add your solution here.
 
 s = input().strip()

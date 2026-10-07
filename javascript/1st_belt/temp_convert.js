@@ -1,4 +1,4 @@
-// Question: What problem does this code solve?
+// Question: Convert temperature from Celsius to Fahrenheit.
 // Add your solution here.
 
 const fs = require('fs');

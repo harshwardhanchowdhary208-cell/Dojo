@@ -1,4 +1,4 @@
-# Question: What problem does this code solve?
+# Question: Read an n x m matrix and print it exactly as it is entered.
 # Add your solution here.
 
 # Read the number of rows (n) and columns (m)

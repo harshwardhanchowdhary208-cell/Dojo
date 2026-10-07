@@ -1,4 +1,4 @@
-# Question: What problem does this code solve?
+# Question: Check whether a matrix is sparse by counting how many zero elements it contains.
 # Add your solution here.
 
 def is_sparse(matrix, M, N):

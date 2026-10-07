@@ -1,4 +1,4 @@
-# Question: What problem does this code solve?
+# Question: Arrange the numbers so positive and negative values alternate in order.
 # Add your solution here.
 
 def rearrange(arr):

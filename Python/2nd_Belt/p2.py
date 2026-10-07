@@ -1,4 +1,4 @@
-# Question: What problem does this code solve?
+# Question: Print Pascal's triangle for the given number of rows.
 # Add your solution here.
 
 def pendulumArrangement(arr):

@@ -1,4 +1,4 @@
-# Question: What problem does this code solve?
+# Question: Rotate the array left by one position.
 # Add your solution here.
 
 from typing import List

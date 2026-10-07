@@ -1,4 +1,4 @@
-# Question: What problem does this code solve?
+# Question: Convert text to uppercase and lowercase as required by the task.
 # Add your solution here.
 
 s = input()

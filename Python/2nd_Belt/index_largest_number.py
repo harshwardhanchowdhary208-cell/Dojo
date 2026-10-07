@@ -1,4 +1,4 @@
-# Question: What problem does this code solve?
+# Question: Find the index of the largest number in the list.
 # Add your solution here.
 
 arr = list(map(int, input().split()))

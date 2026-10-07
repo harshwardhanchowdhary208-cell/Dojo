@@ -1,4 +1,4 @@
-# Question: What problem does this code solve?
+# Question: Count the number of vowels and consonants in a string.
 # Add your solution here.
 
 text=input()

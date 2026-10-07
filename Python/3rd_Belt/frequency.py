@@ -1,3 +1,6 @@
+# Question: Count how many times each character appears in a string.
+# Add your solution here.
+
 str = input()
 str = str.lower()
 freq = {}

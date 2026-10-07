@@ -1,4 +1,4 @@
-# Question: What problem does this code solve?
+# Question: Solve the input-processing challenge implemented in this program.
 # Add your solution here.
 
 x=input()

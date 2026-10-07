@@ -1,4 +1,4 @@
-// Question: What problem does this code solve?
+// Question: Round a number to its nearest integer value.
 // Add your solution here.
 
 const fs = require('fs');

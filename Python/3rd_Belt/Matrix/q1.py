@@ -1,5 +1,5 @@
-# Question: What problem does this code solve?
-# Add two matrices of equal size.
+# Question: Add two matrices of equal size.
+# Add your solution here.
 
 
 def add_matrices(matrix1, matrix2):

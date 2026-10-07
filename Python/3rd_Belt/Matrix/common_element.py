@@ -1,5 +1,5 @@
-# Question: What problem does this code solve?
-# Find the common elements between two sorted arrays.
+# Question: Find the common elements between two sorted arrays.
+# Add your solution here.
 
 
 def find_intersection(arr1, arr2):

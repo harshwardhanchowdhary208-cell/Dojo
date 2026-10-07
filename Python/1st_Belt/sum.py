@@ -1,4 +1,4 @@
-# Question: What problem does this code solve?
+# Question: Calculate the sum of the given numbers.
 # Add your solution here.
 
 num=int(input("Enter a non-negative integer: "))

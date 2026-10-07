@@ -1,4 +1,4 @@
-# Question: What problem does this code solve?
+# Question: Check whether a matrix is lower triangular.
 # Add your solution here.
 
 def is_lower_triangular_matrix(matrix):

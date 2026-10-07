@@ -1,4 +1,4 @@
-# Question: What problem does this code solve?
+# Question: Print the Fibonacci sequence up to the given limit.
 # Add your solution here.
 
 n = input()

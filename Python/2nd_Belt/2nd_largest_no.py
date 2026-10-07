@@ -1,4 +1,4 @@
-# Question: What problem does this code solve?
+# Question: Find the second largest number in the list.
 # Add your solution here.
 
 n = int(input())

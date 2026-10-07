@@ -1,4 +1,4 @@
-// Question: What problem does this code solve?
+// Question: Calculate the total bill for the items in a shopping cart.
 // Add your solution here.
 
 function canSellCookie(bills) {

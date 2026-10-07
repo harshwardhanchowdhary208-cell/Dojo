@@ -1,4 +1,4 @@
-# Question: What problem does this code solve?
+# Question: Solve the worksheet problem implemented in this program.
 # Add your solution here.
 
 sub1 = float(input("Enter Subject 1 marks: "))

@@ -1,4 +1,4 @@
-// Question: What problem does this code solve?
+// Question: Check whether the list is sorted in ascending order.
 // Add your solution here.
 
 const fs = require("fs");

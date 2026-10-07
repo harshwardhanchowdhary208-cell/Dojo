@@ -1,4 +1,4 @@
-# Question: What problem does this code solve?
+# Question: Check whether the entered ATM PIN is valid.
 # Add your solution here.
 
 for i  in range(3):

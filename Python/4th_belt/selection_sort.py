@@ -1,4 +1,4 @@
-# Question: What problem does this code solve?
+# Question: Sort the array using the selection sort algorithm.
 # Add your solution here.
 
 mylist = [64, 34, 25, 12, 22, 11, 90, 5]
