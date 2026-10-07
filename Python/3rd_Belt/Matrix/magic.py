@@ -12,10 +12,6 @@ def is_magic_square(matrix, N=None):
 
     target_sum = sum(matrix[0])
 
-
-
-    
-
     for row in matrix:
         if len(row) != n or sum(row) != target_sum:
             return False
