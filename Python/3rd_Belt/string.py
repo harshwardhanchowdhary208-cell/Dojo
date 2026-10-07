@@ -1,4 +1,4 @@
-# Question: What problem does this code solve?
+# Question: Process the input string according to the required string operation.
 # Add your solution here.
 
 s = input()

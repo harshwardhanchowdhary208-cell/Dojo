@@ -1,4 +1,4 @@
-// Question: What problem does this code solve?
+// Question: Check whether a number is prime.
 // Add your solution here.
 
 function isPrimeOptimized(num) {

@@ -1,4 +1,4 @@
-# Question: To arrange input in an order no 2 positive numbers come together until negative no. exsits
+# Question: Arrange the numbers so positive and negative values alternate in order.
 # Add your solution here.
 
 def rearrange(arr):

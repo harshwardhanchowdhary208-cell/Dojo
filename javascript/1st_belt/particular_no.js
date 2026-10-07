@@ -1,4 +1,4 @@
-// Question: What problem does this code solve?
+// Question: Find the required number based on the given condition.
 // Add your solution here.
 
 const fs = require('fs')

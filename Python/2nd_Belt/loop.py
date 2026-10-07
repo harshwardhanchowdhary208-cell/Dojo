@@ -1,4 +1,4 @@
-# Question: What problem does this code solve?
+# Question: Repeat the required logic for the given input conditions.
 # Add your solution here.
 
 n=input()

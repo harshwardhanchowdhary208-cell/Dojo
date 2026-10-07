@@ -1,4 +1,4 @@
-# Question: What problem does this code solve?
+# Question: Solve the temperature-related challenge implemented in this program.
 # Add your solution here.
 
 temp = float(input("Enter the temperature value: "))

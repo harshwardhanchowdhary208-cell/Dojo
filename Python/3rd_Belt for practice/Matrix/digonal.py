@@ -1,4 +1,4 @@
-# Question: What problem does this code solve?
+# Question: Find the trace of a square matrix by summing its main diagonal elements.
 # Add your solution here.
 
 def trace_of_matrix(matrix):

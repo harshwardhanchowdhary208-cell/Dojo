@@ -1,4 +1,4 @@
-# Question: What problem does this code solve?
+# Question: Find the largest number in the list.
 # Add your solution here.
 
 def find_largest_index(arr):

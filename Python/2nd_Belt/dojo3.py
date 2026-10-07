@@ -1,4 +1,4 @@
-# Question: What problem does this code solve?
+# Question: Solve the given Dojo challenge using the specified logic.
 # Add your solution here.
 
 def sum_digits_until_single(num):

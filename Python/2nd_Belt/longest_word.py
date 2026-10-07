@@ -1,4 +1,4 @@
-# Question: What problem does this code solve?
+# Question: Find the longest word in a sentence.
 # Add your solution here.
 
 word = input()

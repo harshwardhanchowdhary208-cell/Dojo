@@ -1,4 +1,4 @@
-# Question: What problem does this code solve?
+# Question: Add two matrices of equal size.
 # Add your solution here.
 
 rows = int(input("Enter rows: "))

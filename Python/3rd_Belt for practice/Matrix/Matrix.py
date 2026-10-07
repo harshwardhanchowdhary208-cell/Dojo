@@ -1,4 +1,4 @@
-# Question: What problem does this code solve?
+# Question: Perform addition, subtraction, and element-wise multiplication on two 2x2 matrices.
 # Add your solution here.
 
 import numpy as np

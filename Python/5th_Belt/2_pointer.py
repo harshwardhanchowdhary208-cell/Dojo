@@ -1,4 +1,4 @@
-# Question: What problem does this code solve?
+# Question: Find a pair of numbers whose sum is closest to the target value.
 # Add your solution here.
 
 def solve():

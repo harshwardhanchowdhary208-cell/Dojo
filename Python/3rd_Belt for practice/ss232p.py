@@ -1,4 +1,4 @@
-# Question: What problem does this code solve?
+# Question: Solve the given array/string challenge using the required logic.
 # Add your solution here.
 
 a=input()

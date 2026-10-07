@@ -1,4 +1,4 @@
-# Question: What problem does this code solve?
+# Question: Use the two-pointer technique to solve the array problem.
 # Add your solution here.
 
 def find_union_sorted(arr1, arr2):

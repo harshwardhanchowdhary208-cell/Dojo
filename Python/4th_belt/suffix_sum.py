@@ -1,4 +1,4 @@
-# Question: What problem does this code solve?
+# Question: Compute the suffix sum of each element in the array.
 # Add your solution here.
 
 # Python3 code to demonstrate

@@ -1,4 +1,4 @@
-# Question: What problem does this code solve?
+# Question: Move all zeroes to the end of the array while keeping the order of non-zero elements.
 # Add your solution here.
 
 from typing import List
