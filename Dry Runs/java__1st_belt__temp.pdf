@@ -1,0 +1,181 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [4 0 R 6 0 R] /Count 2 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier >>
+endobj
+4 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 5 0 R >>
+endobj
+5 0 obj
+<< /Length 2683 >>
+stream
+BT
+/F1 8.5 Tf
+42 754 Td
+(DRY-RUN GUIDE | temp.java) Tj
+0 -12 Td
+(Source: java\\1st_belt\\temp.java) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(CORE BEHAVIOR) Tj
+0 -12 Td
+(convertTemperature converts Fahrenheit to Celsius for unit F and Celsius to Fahrenheit) Tj
+0 -12 Td
+(for C; other unit characters produce no output.) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(REPRESENTATIVE INPUT / CALL) Tj
+0 -12 Td
+(Input: `100 C`.) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(STEP TRACE) Tj
+0 -12 Td
+(C branch computes 100*9/5+32=212; printf formats two decimal places.) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(EXPECTED OUTPUT / RETURN) Tj
+0 -12 Td
+(`212.00`) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(ACTUAL SOURCE EXCERPT) Tj
+0 -12 Td
+(Verbatim lines from the source; long lines wrap. Source files were not modified.) Tj
+0 -12 Td
+(001 | /*) Tj
+0 -12 Td
+(002 | Challenge #1) Tj
+0 -12 Td
+(003 | ) Tj
+0 -12 Td
+(004 | Write a program that converts a temperature from Celsius to Fahrenheit or vice) Tj
+0 -12 Td
+(      versa.) Tj
+0 -12 Td
+(005 | ) Tj
+0 -12 Td
+(006 | You need to convert a temperature based on the unit provided by the user \(either) Tj
+0 -12 Td
+(      Celsius or Fahrenheit\). ) Tj
+0 -12 Td
+(007 | The program should ask the user to specify the temperature unit \(Celsius or) Tj
+0 -12 Td
+(      Fahrenheit\) and then perform the conversion.) Tj
+0 -12 Td
+(008 | ) Tj
+0 -12 Td
+(009 | Formulas:) Tj
+0 -12 Td
+(010 | Celsius to Fahrenheit: F = \(C * 9 / 5\) + 32) Tj
+0 -12 Td
+(011 | Fahrenheit to Celsius: C = \(F - 32\) * 5 / 9) Tj
+0 -12 Td
+(012 | ) Tj
+0 -12 Td
+(013 | Input Format:) Tj
+0 -12 Td
+(014 | The first line of input contains a floating point number for temperature.) Tj
+0 -12 Td
+(015 | The second line of input contains the unit of the input temperature \('C' for Celsius) Tj
+0 -12 Td
+(      or 'F' for Fahrenheit\).) Tj
+0 -12 Td
+(016 | ) Tj
+0 -12 Td
+(017 | Output Format:) Tj
+0 -12 Td
+(018 | The program will output the converted temperature rounded to two decimal places.) Tj
+0 -12 Td
+(019 | */) Tj
+0 -12 Td
+(020 | ) Tj
+0 -12 Td
+(021 | import java.util.Scanner;) Tj
+0 -12 Td
+(022 | ) Tj
+0 -12 Td
+(023 | public class Solution {) Tj
+0 -12 Td
+(024 |     public static void convertTemperature\(float temp, char unit\) {) Tj
+0 -12 Td
+(025 |         // Implement logic here) Tj
+0 -12 Td
+(026 |         if \(unit == 'F'\) {) Tj
+0 -12 Td
+(027 |             float result = \(temp - 32\) * 5.0f / 9.0f;) Tj
+0 -12 Td
+(028 |             System.out.printf\("%.2f\\n", result\);) Tj
+0 -12 Td
+(029 |         }) Tj
+0 -12 Td
+(030 |         else if \(unit == 'C'\) {) Tj
+0 -12 Td
+(031 |             float result = \(temp * 9.0f / 5.0f\) + 32;) Tj
+0 -12 Td
+(032 |             System.out.printf\("%.2f\\n", result\);) Tj
+0 -12 Td
+(033 |         }) Tj
+0 -12 Td
+ET
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 7 0 R >>
+endobj
+7 0 obj
+<< /Length 545 >>
+stream
+BT
+/F1 8.5 Tf
+42 754 Td
+(034 |     }) Tj
+0 -12 Td
+(035 | ) Tj
+0 -12 Td
+(036 |     public static void main\(String[] args\) {) Tj
+0 -12 Td
+(037 |         // Call the function after taking input) Tj
+0 -12 Td
+(038 |         Scanner scanner = new Scanner\(System.in\);) Tj
+0 -12 Td
+(039 |         float temp = scanner.nextFloat\(\);) Tj
+0 -12 Td
+(040 |         char unit = scanner.next\(\).charAt\(0\);) Tj
+0 -12 Td
+(041 |         convertTemperature\(temp, unit\);) Tj
+0 -12 Td
+(042 |     }) Tj
+0 -12 Td
+(043 | }) Tj
+0 -12 Td
+(044 | ) Tj
+0 -12 Td
+ET
+endstream
+endobj
+xref
+0 8
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000121 00000 n 
+0000000189 00000 n 
+0000000315 00000 n 
+0000003050 00000 n 
+0000003176 00000 n 
+trailer
+<< /Size 8 /Root 1 0 R >>
+startxref
+3772
+%%EOF

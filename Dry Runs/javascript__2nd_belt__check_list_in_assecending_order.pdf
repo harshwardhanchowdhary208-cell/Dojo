@@ -1,0 +1,129 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [4 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier >>
+endobj
+4 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 5 0 R >>
+endobj
+5 0 obj
+<< /Length 2055 >>
+stream
+BT
+/F1 8.5 Tf
+42 754 Td
+(DRY-RUN GUIDE | check_list_in_assecending_order.js) Tj
+0 -12 Td
+(Source: javascript\\2nd_belt\\check_list_in_assecending_order.js) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(CORE BEHAVIOR) Tj
+0 -12 Td
+(Reads N and N integers, then checks whether any adjacent pair decreases. Equal adjacent) Tj
+0 -12 Td
+(values are permitted.) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(REPRESENTATIVE INPUT / CALL) Tj
+0 -12 Td
+(Input: `5 1 2 2 7 9`.) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(STEP TRACE) Tj
+0 -12 Td
+(The comparisons 1<=2, 2<=2, 2<=7, 7<=9 all pass; isAscending remains true.) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(EXPECTED OUTPUT / RETURN) Tj
+0 -12 Td
+(`Yes`) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(ACTUAL SOURCE EXCERPT) Tj
+0 -12 Td
+(Verbatim lines from the source; long lines wrap. Source files were not modified.) Tj
+0 -12 Td
+(001 | // Question: Check whether the list is sorted in ascending order.) Tj
+0 -12 Td
+(002 | // Add your solution here.) Tj
+0 -12 Td
+(003 | ) Tj
+0 -12 Td
+(004 | const fs = require\("fs"\);) Tj
+0 -12 Td
+(005 | const input = fs.readFileSync\(0, "utf-8"\).trim\(\).split\(/\\s+/\);) Tj
+0 -12 Td
+(006 | ) Tj
+0 -12 Td
+(007 | let index = 0;) Tj
+0 -12 Td
+(008 | const n = parseInt\(input[index++]\);) Tj
+0 -12 Td
+(009 | let arr = [];) Tj
+0 -12 Td
+(010 | ) Tj
+0 -12 Td
+(011 | for \(let i = 0; i < n; i++\) {) Tj
+0 -12 Td
+(012 |     arr.push\(parseInt\(input[index++]\)\);) Tj
+0 -12 Td
+(013 | }) Tj
+0 -12 Td
+(014 | ) Tj
+0 -12 Td
+(015 | // Check if each element is less than or equal to the next element) Tj
+0 -12 Td
+(016 | let isAscending = true;) Tj
+0 -12 Td
+(017 | for \(let i = 0; i < n - 1; i++\) {) Tj
+0 -12 Td
+(018 |     if \(arr[i] > arr[i + 1]\) {) Tj
+0 -12 Td
+(019 |         isAscending = false;) Tj
+0 -12 Td
+(020 |         break; // Stop early if we find any decreasing pair) Tj
+0 -12 Td
+(021 |     }) Tj
+0 -12 Td
+(022 | }) Tj
+0 -12 Td
+(023 | ) Tj
+0 -12 Td
+(024 | if \(isAscending\) {) Tj
+0 -12 Td
+(025 |     console.log\("Yes"\);) Tj
+0 -12 Td
+(026 | } else {) Tj
+0 -12 Td
+(027 |     console.log\("No"\);) Tj
+0 -12 Td
+(028 | }) Tj
+0 -12 Td
+(029 | ) Tj
+0 -12 Td
+ET
+endstream
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000183 00000 n 
+0000000309 00000 n 
+trailer
+<< /Size 6 /Root 1 0 R >>
+startxref
+2416
+%%EOF

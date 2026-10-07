@@ -1,0 +1,145 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [4 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier >>
+endobj
+4 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 5 0 R >>
+endobj
+5 0 obj
+<< /Length 2539 >>
+stream
+BT
+/F1 8.5 Tf
+42 754 Td
+(DRY-RUN GUIDE | leap_year.java) Tj
+0 -12 Td
+(Source: java\\1st_belt\\leap_year.java) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(CORE BEHAVIOR) Tj
+0 -12 Td
+(Reads an integer if available. A year is leap when divisible by 4 and not 100, or) Tj
+0 -12 Td
+(divisible by 400.) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(REPRESENTATIVE INPUT / CALL) Tj
+0 -12 Td
+(Input: `1900`.) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(STEP TRACE) Tj
+0 -12 Td
+(1900%4=0 but 1900%100=0, so the first conjunction is false; 1900%400 is not zero.) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(EXPECTED OUTPUT / RETURN) Tj
+0 -12 Td
+(`not leap year`) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(ACTUAL SOURCE EXCERPT) Tj
+0 -12 Td
+(Verbatim lines from the source; long lines wrap. Source files were not modified.) Tj
+0 -12 Td
+(001 | /*) Tj
+0 -12 Td
+(002 | Challenge #3: Leap Year) Tj
+0 -12 Td
+(003 | ) Tj
+0 -12 Td
+(004 | You are given a year as input. A leap year is defined as a year that has 366 days. ) Tj
+0 -12 Td
+(005 | Write a program that outputs "leap year" if the input year is a leap year and "not) Tj
+0 -12 Td
+(      leap year" otherwise.) Tj
+0 -12 Td
+(006 | ) Tj
+0 -12 Td
+(007 | A year is a leap year if it satisfies the following conditions:) Tj
+0 -12 Td
+(008 | - It is divisible by 4.) Tj
+0 -12 Td
+(009 | - If it is divisible by 100, it must also be divisible by 400.) Tj
+0 -12 Td
+(010 | ) Tj
+0 -12 Td
+(011 | Example 1:) Tj
+0 -12 Td
+(012 | Input: 2020) Tj
+0 -12 Td
+(013 | Output: leap year) Tj
+0 -12 Td
+(014 | */) Tj
+0 -12 Td
+(015 | ) Tj
+0 -12 Td
+(016 | import java.io.*;) Tj
+0 -12 Td
+(017 | import java.util.*;) Tj
+0 -12 Td
+(018 | ) Tj
+0 -12 Td
+(019 | public class Solution {) Tj
+0 -12 Td
+(020 |     public static void main\(String[] args\) {) Tj
+0 -12 Td
+(021 |         Scanner sc = new Scanner\(System.in\);) Tj
+0 -12 Td
+(022 |         if \(sc.hasNextInt\(\)\) {) Tj
+0 -12 Td
+(023 |             int year = sc.nextInt\(\);) Tj
+0 -12 Td
+(024 |             ) Tj
+0 -12 Td
+(025 |             // A year is a leap year if it is divisible by 4, ) Tj
+0 -12 Td
+(026 |             // but not by 100 unless it is also divisible by 400.) Tj
+0 -12 Td
+(027 |             if \(\(year % 4 == 0 && year % 100 != 0\) || \(year % 400 == 0\)\) {) Tj
+0 -12 Td
+(028 |                 System.out.println\("leap year"\);) Tj
+0 -12 Td
+(029 |             } else {) Tj
+0 -12 Td
+(030 |                 System.out.println\("not leap year"\);) Tj
+0 -12 Td
+(031 |             }) Tj
+0 -12 Td
+(032 |         }) Tj
+0 -12 Td
+(033 |         sc.close\(\);) Tj
+0 -12 Td
+(034 |     }) Tj
+0 -12 Td
+(035 | } ) Tj
+0 -12 Td
+(036 | ) Tj
+0 -12 Td
+ET
+endstream
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000183 00000 n 
+0000000309 00000 n 
+trailer
+<< /Size 6 /Root 1 0 R >>
+startxref
+2900
+%%EOF

@@ -1,0 +1,169 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [4 0 R 6 0 R] /Count 2 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier >>
+endobj
+4 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 5 0 R >>
+endobj
+5 0 obj
+<< /Length 2303 >>
+stream
+BT
+/F1 8.5 Tf
+42 754 Td
+(DRY-RUN GUIDE | 10_interleave_array.cpp) Tj
+0 -12 Td
+(Source: cpp\\2nd_belt\\10_interleave_array.cpp) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(CORE BEHAVIOR) Tj
+0 -12 Td
+(Reads 2N values followed by N, then pairs the first half with the corresponding) Tj
+0 -12 Td
+(second-half value.) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(REPRESENTATIVE INPUT / CALL) Tj
+0 -12 Td
+(Input: size=6; values `1 3 5 2 4 6`; N=3.) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(STEP TRACE) Tj
+0 -12 Td
+(i=0 prints nums[0],nums[3] => 1,2; i=1 => 3,4; i=2 => 5,6.) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(EXPECTED OUTPUT / RETURN) Tj
+0 -12 Td
+(`1 2 3 4 5 6`) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(ACTUAL SOURCE EXCERPT) Tj
+0 -12 Td
+(Verbatim lines from the source; long lines wrap. Source files were not modified.) Tj
+0 -12 Td
+(001 | /*) Tj
+0 -12 Td
+(002 | Question:) Tj
+0 -12 Td
+(003 | Given the array nums consisting of 2N elements in the form) Tj
+0 -12 Td
+(004 | [x1, x2, ..., xn, y1, y2, ..., yn], return the array in the form) Tj
+0 -12 Td
+(005 | [x1, y1, x2, y2, ..., xn, yn].) Tj
+0 -12 Td
+(006 | ) Tj
+0 -12 Td
+(007 | Input Format:) Tj
+0 -12 Td
+(008 | The first line of input contains the size of an array 2N.) Tj
+0 -12 Td
+(009 | The second line has the elements of the array.) Tj
+0 -12 Td
+(010 | The third line has the value of N.) Tj
+0 -12 Td
+(011 | ) Tj
+0 -12 Td
+(012 | Output Format:) Tj
+0 -12 Td
+(013 | The output consists of the array in the form) Tj
+0 -12 Td
+(014 | [x1, y1, x2, y2, ..., xn, yn].) Tj
+0 -12 Td
+(015 | */) Tj
+0 -12 Td
+(016 | ) Tj
+0 -12 Td
+(017 | #include <iostream>) Tj
+0 -12 Td
+(018 | #include <vector>) Tj
+0 -12 Td
+(019 | using namespace std;) Tj
+0 -12 Td
+(020 | ) Tj
+0 -12 Td
+(021 | int main\(\) {) Tj
+0 -12 Td
+(022 |     int size;) Tj
+0 -12 Td
+(023 |     cin >> size;) Tj
+0 -12 Td
+(024 | ) Tj
+0 -12 Td
+(025 |     vector<int> nums\(size\);) Tj
+0 -12 Td
+(026 |     for \(int i = 0; i < size; i++\) {) Tj
+0 -12 Td
+(027 |         cin >> nums[i];) Tj
+0 -12 Td
+(028 |     }) Tj
+0 -12 Td
+(029 | ) Tj
+0 -12 Td
+(030 |     int n;) Tj
+0 -12 Td
+(031 |     cin >> n;) Tj
+0 -12 Td
+(032 | ) Tj
+0 -12 Td
+(033 |     for \(int i = 0; i < n; i++\) {) Tj
+0 -12 Td
+(034 |         cout << nums[i] << " " << nums[i + n];) Tj
+0 -12 Td
+(035 |         if \(i != n - 1\) {) Tj
+0 -12 Td
+(036 |             cout << " ";) Tj
+0 -12 Td
+(037 |         }) Tj
+0 -12 Td
+ET
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 7 0 R >>
+endobj
+7 0 obj
+<< /Length 150 >>
+stream
+BT
+/F1 8.5 Tf
+42 754 Td
+(038 |     }) Tj
+0 -12 Td
+(039 | ) Tj
+0 -12 Td
+(040 |     return 0;) Tj
+0 -12 Td
+(041 | }) Tj
+0 -12 Td
+(042 | ) Tj
+0 -12 Td
+ET
+endstream
+endobj
+xref
+0 8
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000121 00000 n 
+0000000189 00000 n 
+0000000315 00000 n 
+0000002670 00000 n 
+0000002796 00000 n 
+trailer
+<< /Size 8 /Root 1 0 R >>
+startxref
+2997
+%%EOF

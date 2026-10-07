@@ -1,0 +1,139 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [4 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier >>
+endobj
+4 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 5 0 R >>
+endobj
+5 0 obj
+<< /Length 2422 >>
+stream
+BT
+/F1 8.5 Tf
+42 754 Td
+(DRY-RUN GUIDE | magic.py) Tj
+0 -12 Td
+(Source: Python\\3rd_Belt for practice\\Matrix\\magic.py) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(CORE BEHAVIOR) Tj
+0 -12 Td
+(Checks that every row, column, and both diagonals have the same sum.) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(REPRESENTATIVE INPUT) Tj
+0 -12 Td
+(Lo Shu square: `8 1 6` / `3 5 7` / `4 9 2`.) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(STEP TRACE) Tj
+0 -12 Td
+(Target row sum=15; every row, column, and diagonal sums to 15.) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(EXPECTED OUTPUT / RETURN) Tj
+0 -12 Td
+(`True`) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(ACTUAL SOURCE EXCERPT) Tj
+0 -12 Td
+(Verbatim excerpt from Python\\3rd_Belt for practice\\Matrix\\magic.py; line numbers refer) Tj
+0 -12 Td
+(to the original file. No source was modified.) Tj
+0 -12 Td
+(001 | # Question: Check whether a square matrix is a magic square.) Tj
+0 -12 Td
+(002 | # Add your solution here.) Tj
+0 -12 Td
+(003 | ) Tj
+0 -12 Td
+(004 | def is_magic_square\(matrix, N\):) Tj
+0 -12 Td
+(005 |     target_sum = sum\(matrix[0]\)) Tj
+0 -12 Td
+(006 |     ) Tj
+0 -12 Td
+(007 |     for row in matrix:) Tj
+0 -12 Td
+(008 |         if sum\(row\) != target_sum:) Tj
+0 -12 Td
+(009 |             return False) Tj
+0 -12 Td
+(010 |             ) Tj
+0 -12 Td
+(011 |     for col in range\(N\):) Tj
+0 -12 Td
+(012 |         col_sum = sum\(matrix[row][col] for row in range\(N\)\)) Tj
+0 -12 Td
+(013 |         if col_sum != target_sum:) Tj
+0 -12 Td
+(014 |             return False) Tj
+0 -12 Td
+(015 |             ) Tj
+0 -12 Td
+(016 |     diag1_sum = sum\(matrix[i][i] for i in range\(N\)\)) Tj
+0 -12 Td
+(017 |     if diag1_sum != target_sum:) Tj
+0 -12 Td
+(018 |         return False) Tj
+0 -12 Td
+(019 |         ) Tj
+0 -12 Td
+(020 |     diag2_sum = sum\(matrix[i][N - 1 - i] for i in range\(N\)\)) Tj
+0 -12 Td
+(021 |     if diag2_sum != target_sum:) Tj
+0 -12 Td
+(022 |         return False) Tj
+0 -12 Td
+(023 |         ) Tj
+0 -12 Td
+(024 |     return True) Tj
+0 -12 Td
+(025 | ) Tj
+0 -12 Td
+(026 | N = int\(input\(\)\)) Tj
+0 -12 Td
+(027 | matrix = [list\(map\(int, input\(\).split\(\)\)\) for _ in range\(N\)]) Tj
+0 -12 Td
+(028 | ) Tj
+0 -12 Td
+(029 | print\(is_magic_square\(matrix, N\)\)) Tj
+0 -12 Td
+(030 | ) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(DRY-RUN NOTE) Tj
+0 -12 Td
+(Values are representative. For function-only modules the guide uses an illustrative) Tj
+0 -12 Td
+(direct call and explains its return; quirks/errors describe actual behavior.) Tj
+0 -12 Td
+ET
+endstream
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000183 00000 n 
+0000000309 00000 n 
+trailer
+<< /Size 6 /Root 1 0 R >>
+startxref
+2783
+%%EOF

@@ -1,30 +1,33 @@
-# Question: Swap the main diagonal and anti-diagonal elements of a square matrix.
-# Add your solution here.
-
-import sys
-
-def main():
-    # Read all input lines from standard input
-    input_data = sys.stdin.read().splitlines()
-    if not input_data:
-        return
-    
-    # Parse the size of the square matrix
-    n = int(input_data[0].strip())
-    
-    # Construct the matrix
-    matrix = []
-    for i in range(1, n + 1):
-        row = list(map(int, input_data[i].split()))
-        matrix.append(row)
-        
-    # Interchange the main diagonal and anti-diagonal elements
+def interchange_diagonals(matrix):
+    n = len(matrix)
     for i in range(n):
+        # Swap the main diagonal element with the anti-diagonal element
         matrix[i][i], matrix[i][n - 1 - i] = matrix[i][n - 1 - i], matrix[i][i]
-        
-    # Print the modified matrix
+
+def print_matrix(matrix):
     for row in matrix:
         print(" ".join(map(str, row)))
 
-if __name__ == "__main__":
-    main()
+# Step 1: Get the dimensions of the square matrix
+n = int(input("Enter the size of the square matrix (N x N): "))
+
+matrix = []
+print(f"Enter the elements row by row (space-separated integers):")
+
+# Step 2: Dynamically take matrix input row by row
+for i in range(n):
+    row = list(map(int, input(f"Row {i + 1}: ").split()))
+    # Validate if the user entered exactly N elements per row
+    while len(row) != n:
+        print(f"Invalid input! Please enter exactly {n} elements.")
+        row = list(map(int, input(f"Row {i + 1}: ").split()))
+    matrix.append(row)
+
+print("\nOriginal Matrix:")
+print_matrix(matrix)
+
+# Step 3: Swap the diagonals
+interchange_diagonals(matrix)
+
+print("\nMatrix after interchanging diagonals:")
+print_matrix(matrix)

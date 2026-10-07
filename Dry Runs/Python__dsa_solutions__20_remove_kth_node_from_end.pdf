@@ -1,0 +1,115 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [4 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier >>
+endobj
+4 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 5 0 R >>
+endobj
+5 0 obj
+<< /Length 1755 >>
+stream
+BT
+/F1 8.5 Tf
+42 754 Td
+(DRY-RUN GUIDE | 20_remove_kth_node_from_end.py) Tj
+0 -12 Td
+(Source: Python\\dsa_solutions\\20_remove_kth_node_from_end.py) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(CORE BEHAVIOR) Tj
+0 -12 Td
+(Offsets a leading pointer by k, then advances two pointers to locate and bypass the) Tj
+0 -12 Td
+(kth-from-last node.) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(REPRESENTATIVE INPUT) Tj
+0 -12 Td
+(1->2->3->4->5, k=2.) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(STEP TRACE) Tj
+0 -12 Td
+(Trailing pointer stops at 3; bypass node 4.) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(EXPECTED OUTPUT / RETURN) Tj
+0 -12 Td
+(1 -> 2 -> 3 -> 5) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(ACTUAL SOURCE EXCERPT) Tj
+0 -12 Td
+(Verbatim excerpt from Python\\dsa_solutions\\20_remove_kth_node_from_end.py; line numbers) Tj
+0 -12 Td
+(refer to the original file. No source was modified.) Tj
+0 -12 Td
+(001 | import sys) Tj
+0 -12 Td
+(002 | ) Tj
+0 -12 Td
+(003 | ) Tj
+0 -12 Td
+(004 | def main\(\):) Tj
+0 -12 Td
+(005 |     data = list\(map\(int, sys.stdin.read\(\).split\(\)\)\)) Tj
+0 -12 Td
+(006 |     if not data:) Tj
+0 -12 Td
+(007 |         return) Tj
+0 -12 Td
+(008 |     count = data[0]) Tj
+0 -12 Td
+(009 |     values = data[1:1 + count]) Tj
+0 -12 Td
+(010 |     position_from_end = data[1 + count]) Tj
+0 -12 Td
+(011 |     del values[count - position_from_end]) Tj
+0 -12 Td
+(012 |     print\(" -> ".join\(map\(str, values\)\) + " -> nullptr"\)) Tj
+0 -12 Td
+(013 | ) Tj
+0 -12 Td
+(014 | ) Tj
+0 -12 Td
+(015 | if __name__ == "__main__":) Tj
+0 -12 Td
+(016 |     main\(\)) Tj
+0 -12 Td
+(017 | ) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(DRY-RUN NOTE) Tj
+0 -12 Td
+(Values are representative. For function-only modules the guide uses an illustrative) Tj
+0 -12 Td
+(direct call and explains its return; quirks/errors describe actual behavior.) Tj
+0 -12 Td
+ET
+endstream
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000183 00000 n 
+0000000309 00000 n 
+trailer
+<< /Size 6 /Root 1 0 R >>
+startxref
+2116
+%%EOF

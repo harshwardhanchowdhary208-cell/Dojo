@@ -1,0 +1,167 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [4 0 R 6 0 R] /Count 2 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier >>
+endobj
+4 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 5 0 R >>
+endobj
+5 0 obj
+<< /Length 2457 >>
+stream
+BT
+/F1 8.5 Tf
+42 754 Td
+(DRY-RUN GUIDE | billing_cart.js) Tj
+0 -12 Td
+(Source: javascript\\2nd_belt\\billing_cart.js) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(CORE BEHAVIOR) Tj
+0 -12 Td
+(canSellCookie checks whether each customer can be served exact change: retain $5 bills;) Tj
+0 -12 Td
+(a $10 consumes one $5; a $20 prefers one $10 plus one $5, otherwise three $5. The script) Tj
+0 -12 Td
+(prints results for four fixed queues.) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(REPRESENTATIVE INPUT / CALL) Tj
+0 -12 Td
+(Built-in queues: [5,5,5,10,20], [5,5,10,10,20], [5,5,5,10,10,20], [5,5,5,5,20].) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(STEP TRACE) Tj
+0 -12 Td
+(Queue 1 succeeds \(20 uses 10+5\); queue 2 fails at its second 10; queue 3 fails at 20) Tj
+0 -12 Td
+(with only two 5s; queue 4 succeeds using three 5s for 20.) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(EXPECTED OUTPUT / RETURN) Tj
+0 -12 Td
+(Four lines: `true`, `false`, `false`, `true`.) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(ACTUAL SOURCE EXCERPT) Tj
+0 -12 Td
+(Verbatim lines from the source; long lines wrap. Source files were not modified.) Tj
+0 -12 Td
+(001 | // Question: Calculate the total bill for the items in a shopping cart.) Tj
+0 -12 Td
+(002 | // Add your solution here.) Tj
+0 -12 Td
+(003 | ) Tj
+0 -12 Td
+(004 | function canSellCookie\(bills\) {) Tj
+0 -12 Td
+(005 |   let five = 0;) Tj
+0 -12 Td
+(006 |   let ten = 0;) Tj
+0 -12 Td
+(007 |   let twenty = 0) Tj
+0 -12 Td
+(008 | ) Tj
+0 -12 Td
+(009 |   for \(let i = 0; i < bills.length; i++\) {) Tj
+0 -12 Td
+(010 |     const bill = bills[i];) Tj
+0 -12 Td
+(011 | ) Tj
+0 -12 Td
+(012 |     if \(bill === 5\) {) Tj
+0 -12 Td
+(013 |       five++;) Tj
+0 -12 Td
+(014 |     } else if \(bill === 10\) {) Tj
+0 -12 Td
+(015 |       if \(five === 0\) return false;) Tj
+0 -12 Td
+(016 |       five--;) Tj
+0 -12 Td
+(017 |       ten++;) Tj
+0 -12 Td
+(018 |     } else if \(bill === 20\) {) Tj
+0 -12 Td
+(019 |       if \(ten > 0 && five > 0\) {) Tj
+0 -12 Td
+(020 |         ten--;) Tj
+0 -12 Td
+(021 |         five--;) Tj
+0 -12 Td
+(022 |         twenty++;) Tj
+0 -12 Td
+(023 |       } else if \(five >= 3\) {) Tj
+0 -12 Td
+(024 |         five -= 3;) Tj
+0 -12 Td
+(025 |         twenty++;) Tj
+0 -12 Td
+(026 |       } else {) Tj
+0 -12 Td
+(027 |         return false;) Tj
+0 -12 Td
+(028 |       }) Tj
+0 -12 Td
+(029 |     }) Tj
+0 -12 Td
+(030 |   }) Tj
+0 -12 Td
+(031 | ) Tj
+0 -12 Td
+(032 |   return true;) Tj
+0 -12 Td
+(033 | }) Tj
+0 -12 Td
+(034 | ) Tj
+0 -12 Td
+(035 | console.log\(canSellCookie\([5, 5, 5, 10, 20]\)\);) Tj
+0 -12 Td
+ET
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 7 0 R >>
+endobj
+7 0 obj
+<< /Length 264 >>
+stream
+BT
+/F1 8.5 Tf
+42 754 Td
+(036 | console.log\(canSellCookie\([5, 5, 10, 10, 20]\)\);) Tj
+0 -12 Td
+(037 | console.log\(canSellCookie\([5, 5, 5, 10, 10, 20]\)\);) Tj
+0 -12 Td
+(038 | console.log\(canSellCookie\([5, 5, 5, 5, 20]\)\);) Tj
+0 -12 Td
+(039 | ) Tj
+0 -12 Td
+ET
+endstream
+endobj
+xref
+0 8
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000121 00000 n 
+0000000189 00000 n 
+0000000315 00000 n 
+0000002824 00000 n 
+0000002950 00000 n 
+trailer
+<< /Size 8 /Root 1 0 R >>
+startxref
+3265
+%%EOF

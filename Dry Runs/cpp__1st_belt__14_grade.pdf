@@ -1,0 +1,171 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [4 0 R 6 0 R] /Count 2 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier >>
+endobj
+4 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 5 0 R >>
+endobj
+5 0 obj
+<< /Length 2175 >>
+stream
+BT
+/F1 8.5 Tf
+42 754 Td
+(DRY-RUN GUIDE | 14_grade.cpp) Tj
+0 -12 Td
+(Source: cpp\\1st_belt\\14_grade.cpp) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(CORE BEHAVIOR) Tj
+0 -12 Td
+(Rejects scores outside 0..100; otherwise chooses the first applicable grade threshold) Tj
+0 -12 Td
+(from F through A.) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(REPRESENTATIVE INPUT / CALL) Tj
+0 -12 Td
+(Input: `81`.) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(STEP TRACE) Tj
+0 -12 Td
+(Valid range. <=39? no; <=50? no; <=60? no; <=70? no; <=80? no; else A.) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(EXPECTED OUTPUT / RETURN) Tj
+0 -12 Td
+(`A`) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(ACTUAL SOURCE EXCERPT) Tj
+0 -12 Td
+(Verbatim lines from the source; long lines wrap. Source files were not modified.) Tj
+0 -12 Td
+(001 | /*) Tj
+0 -12 Td
+(002 | Question:) Tj
+0 -12 Td
+(003 | You are provided with the following table. Based on the student's score,) Tj
+0 -12 Td
+(004 | print the appropriate grade.) Tj
+0 -12 Td
+(005 | ) Tj
+0 -12 Td
+(006 | Grading Metrics:) Tj
+0 -12 Td
+(007 | 0-39: F) Tj
+0 -12 Td
+(008 | 40-50: E) Tj
+0 -12 Td
+(009 | 51-60: D) Tj
+0 -12 Td
+(010 | 61-70: C) Tj
+0 -12 Td
+(011 | 71-80: B) Tj
+0 -12 Td
+(012 | 81-100: A) Tj
+0 -12 Td
+(013 | ) Tj
+0 -12 Td
+(014 | If an invalid score is provided outside the allowed range, print) Tj
+0 -12 Td
+(015 | "Invalid Input".) Tj
+0 -12 Td
+(016 | */) Tj
+0 -12 Td
+(017 | ) Tj
+0 -12 Td
+(018 | #include <iostream>) Tj
+0 -12 Td
+(019 | using namespace std;) Tj
+0 -12 Td
+(020 | ) Tj
+0 -12 Td
+(021 | int main\(\) {) Tj
+0 -12 Td
+(022 |     int score;) Tj
+0 -12 Td
+(023 |     cin >> score;) Tj
+0 -12 Td
+(024 | ) Tj
+0 -12 Td
+(025 |     if \(score < 0 || score > 100\) {) Tj
+0 -12 Td
+(026 |         cout << "Invalid Input";) Tj
+0 -12 Td
+(027 |     } else if \(score <= 39\) {) Tj
+0 -12 Td
+(028 |         cout << "F";) Tj
+0 -12 Td
+(029 |     } else if \(score <= 50\) {) Tj
+0 -12 Td
+(030 |         cout << "E";) Tj
+0 -12 Td
+(031 |     } else if \(score <= 60\) {) Tj
+0 -12 Td
+(032 |         cout << "D";) Tj
+0 -12 Td
+(033 |     } else if \(score <= 70\) {) Tj
+0 -12 Td
+(034 |         cout << "C";) Tj
+0 -12 Td
+(035 |     } else if \(score <= 80\) {) Tj
+0 -12 Td
+(036 |         cout << "B";) Tj
+0 -12 Td
+(037 |     } else {) Tj
+0 -12 Td
+ET
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 7 0 R >>
+endobj
+7 0 obj
+<< /Length 191 >>
+stream
+BT
+/F1 8.5 Tf
+42 754 Td
+(038 |         cout << "A";) Tj
+0 -12 Td
+(039 |     }) Tj
+0 -12 Td
+(040 | ) Tj
+0 -12 Td
+(041 |     return 0;) Tj
+0 -12 Td
+(042 | }) Tj
+0 -12 Td
+(043 | ) Tj
+0 -12 Td
+ET
+endstream
+endobj
+xref
+0 8
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000121 00000 n 
+0000000189 00000 n 
+0000000315 00000 n 
+0000002542 00000 n 
+0000002668 00000 n 
+trailer
+<< /Size 8 /Root 1 0 R >>
+startxref
+2910
+%%EOF

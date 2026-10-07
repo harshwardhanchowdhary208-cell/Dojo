@@ -1,0 +1,259 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [4 0 R 6 0 R] /Count 2 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier >>
+endobj
+4 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 5 0 R >>
+endobj
+5 0 obj
+<< /Length 3115 >>
+stream
+BT
+/F1 8.5 Tf
+42 754 Td
+(DRY-RUN GUIDE | app.js) Tj
+0 -12 Td
+(Source: ca-2\\fewd\\src\\app.js) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(CORE BEHAVIOR) Tj
+0 -12 Td
+(Defines ten pure task/score utilities. The file contains no invocation or export in this) Tj
+0 -12 Td
+(excerpt, so loading it alone prints nothing; the dry run demonstrates representative) Tj
+0 -12 Td
+(calls to the functions.) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(REPRESENTATIVE INPUT / CALL) Tj
+0 -12 Td
+(Sample calls: greet\('Aisha'\); isPassing\(40\); sumScores\([70,80]\);) Tj
+0 -12 Td
+(highScores\([10,50,90],40\); formatTask\({title:'Ship',done:true,priority:'low'}\).) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(STEP TRACE) Tj
+0 -12 Td
+(greet builds a template string; boundary 40 passes; reduce totals 150; filter keeps 50) Tj
+0 -12 Td
+(and 90; formatTask selects [x] and appends title/priority.) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(EXPECTED OUTPUT / RETURN) Tj
+0 -12 Td
+(Returns: `Hi, Aisha! Welcome back.`; true; 150; [50,90]; `[x] Ship \(low\)`. No output) Tj
+0 -12 Td
+(when file runs by itself.) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(ACTUAL SOURCE EXCERPT) Tj
+0 -12 Td
+(Verbatim lines from the source; long lines wrap. Source files were not modified.) Tj
+0 -12 Td
+(001 | /*) Tj
+0 -12 Td
+(002 |  * Module 2 Practice Assessment - Task Tracker data utilities) Tj
+0 -12 Td
+(003 |  * ------------------------------------------------------------------) Tj
+0 -12 Td
+(004 |  * Implement the 10 functions below. Each one is checked by a Jasmine) Tj
+0 -12 Td
+(005 |  * spec in tests/FunctionsTest.js \(10 specs x 2 marks = 20\).) Tj
+0 -12 Td
+(006 |  *) Tj
+0 -12 Td
+(007 |  * A "task" is a plain object shaped like:) Tj
+0 -12 Td
+(008 |  *   { title: "Buy milk", status: "todo", done: false, priority: "high" }) Tj
+0 -12 Td
+(009 |  *) Tj
+0 -12 Td
+(010 |  * Rules:) Tj
+0 -12 Td
+(011 |  *   - Do NOT rename the functions and do NOT change their parameters.) Tj
+0 -12 Td
+(012 |  *   - Do NOT edit index.html, main.css, or tests/FunctionsTest.js.) Tj
+0 -12 Td
+(013 |  *   - Keep each function pure: return a value, do not print or mutate) Tj
+0 -12 Td
+(014 |  *     the inputs unless the task explicitly says to.) Tj
+0 -12 Td
+(015 |  * ------------------------------------------------------------------) Tj
+0 -12 Td
+(016 |  */) Tj
+0 -12 Td
+(017 | ) Tj
+0 -12 Td
+(018 | // 1. greet\(name\) -> a greeting built with a TEMPLATE LITERAL.) Tj
+0 -12 Td
+(019 | //    greet\("Aisha"\) must return exactly:  "Hi, Aisha! Welcome back.") Tj
+0 -12 Td
+(020 | function greet\(name\) {) Tj
+0 -12 Td
+(021 |   return `Hi, ${name}! Welcome back.`;) Tj
+0 -12 Td
+(022 | }) Tj
+0 -12 Td
+(023 | ) Tj
+0 -12 Td
+(024 | // 2. isPassing\(score\) -> true if score is 40 or more, else false.) Tj
+0 -12 Td
+(025 | function isPassing\(score\) {) Tj
+0 -12 Td
+(026 |   return score >= 40;) Tj
+0 -12 Td
+(027 | }) Tj
+0 -12 Td
+(028 | ) Tj
+0 -12 Td
+(029 | // 3. sumScores\(scores\) -> the sum of all numbers in the array.) Tj
+0 -12 Td
+(030 | //    sumScores\([]\) must return 0.) Tj
+0 -12 Td
+(031 | function sumScores\(scores\) {) Tj
+0 -12 Td
+(032 |   return scores.reduce\(\(total, score\) => total + score, 0\);) Tj
+0 -12 Td
+(033 | }) Tj
+0 -12 Td
+ET
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 7 0 R >>
+endobj
+7 0 obj
+<< /Length 2724 >>
+stream
+BT
+/F1 8.5 Tf
+42 754 Td
+(034 | ) Tj
+0 -12 Td
+(035 | // 4. highScores\(scores, min\) -> a NEW array with only the scores) Tj
+0 -12 Td
+(036 | //    strictly greater than min.  highScores\([10,50,90], 40\) -> [50,90]) Tj
+0 -12 Td
+(037 | function highScores\(scores, min\) {) Tj
+0 -12 Td
+(038 |   return scores.filter\(score => score > min\);) Tj
+0 -12 Td
+(039 | }) Tj
+0 -12 Td
+(040 | ) Tj
+0 -12 Td
+(041 | // 5. titles\(tasks\) -> an array of every task's .title, in order.) Tj
+0 -12 Td
+(042 | function titles\(tasks\) {) Tj
+0 -12 Td
+(043 |   return tasks.map\(task => task.title\);) Tj
+0 -12 Td
+(044 | }) Tj
+0 -12 Td
+(045 | ) Tj
+0 -12 Td
+(046 | // 6. countByStatus\(tasks, status\) -> how many tasks have that .status.) Tj
+0 -12 Td
+(047 | function countByStatus\(tasks, status\) {) Tj
+0 -12 Td
+(048 |   return tasks.filter\(task => task.status === status\).length;) Tj
+0 -12 Td
+(049 | }) Tj
+0 -12 Td
+(050 | ) Tj
+0 -12 Td
+(051 | // 7. toggleDone\(task\) -> a NEW task object identical to the input but) Tj
+0 -12 Td
+(052 | //    with .done flipped. The ORIGINAL object must not be changed.) Tj
+0 -12 Td
+(053 | function toggleDone\(task\) {) Tj
+0 -12 Td
+(054 |   return { ...task, done: !task.done };) Tj
+0 -12 Td
+(055 | }) Tj
+0 -12 Td
+(056 | ) Tj
+0 -12 Td
+(057 | // 8. longestTitle\(tasks\) -> the single .title string with the most) Tj
+0 -12 Td
+(058 | //    characters. Assume at least one task; ties may return either.) Tj
+0 -12 Td
+(059 | function longestTitle\(tasks\) {) Tj
+0 -12 Td
+(060 |   return tasks.reduce\(\(longest, task\) =>) Tj
+0 -12 Td
+(061 |     task.title.length > longest.length ? task.title : longest) Tj
+0 -12 Td
+(062 |   \);) Tj
+0 -12 Td
+(063 | }) Tj
+0 -12 Td
+(064 | ) Tj
+0 -12 Td
+(065 | // 9. averageScore\(scores\) -> the average of the numbers.) Tj
+0 -12 Td
+(066 | //    averageScore\([]\) must return 0 \(do not divide by zero\).) Tj
+0 -12 Td
+(067 | function averageScore\(scores\) {) Tj
+0 -12 Td
+(068 |   if \(scores.length === 0\) {) Tj
+0 -12 Td
+(069 |     return 0;) Tj
+0 -12 Td
+(070 |   }) Tj
+0 -12 Td
+(071 | ) Tj
+0 -12 Td
+(072 |   return sumScores\(scores\) / scores.length;) Tj
+0 -12 Td
+(073 | }) Tj
+0 -12 Td
+(074 | ) Tj
+0 -12 Td
+(075 | // 10. formatTask\(task\) -> a display line built with a TEMPLATE LITERAL:) Tj
+0 -12 Td
+(076 | //     done tasks start with "[x] ", not-done with "[ ] ", then the) Tj
+0 -12 Td
+(077 | //     title, then " \(priority\)".) Tj
+0 -12 Td
+(078 | //     { title:"Ship", done:true, priority:"low" } -> "[x] Ship \(low\)") Tj
+0 -12 Td
+(079 | function formatTask\(task\) {) Tj
+0 -12 Td
+(080 |   const marker = task.done ? "[x]" : "[ ]";) Tj
+0 -12 Td
+(081 |   return `${marker} ${task.title} \(${task.priority}\)`;) Tj
+0 -12 Td
+(082 | }) Tj
+0 -12 Td
+(083 | ) Tj
+0 -12 Td
+ET
+endstream
+endobj
+xref
+0 8
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000121 00000 n 
+0000000189 00000 n 
+0000000315 00000 n 
+0000003482 00000 n 
+0000003608 00000 n 
+trailer
+<< /Size 8 /Root 1 0 R >>
+startxref
+6384
+%%EOF

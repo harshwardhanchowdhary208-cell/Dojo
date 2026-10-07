@@ -1,0 +1,103 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [4 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier >>
+endobj
+4 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 5 0 R >>
+endobj
+5 0 obj
+<< /Length 1441 >>
+stream
+BT
+/F1 8.5 Tf
+42 754 Td
+(DRY-RUN GUIDE | string.py) Tj
+0 -12 Td
+(Source: Python\\3rd_Belt for practice\\string.py) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(CORE BEHAVIOR) Tj
+0 -12 Td
+(Inserts a space at lowercase-to-uppercase boundaries to separate camel-cased words.) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(REPRESENTATIVE INPUT) Tj
+0 -12 Td
+(`helloWorld`.) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(STEP TRACE) Tj
+0 -12 Td
+(The boundary before W meets both conditions; append a space, then copy the remaining) Tj
+0 -12 Td
+(characters.) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(EXPECTED OUTPUT / RETURN) Tj
+0 -12 Td
+(`hello World`) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(ACTUAL SOURCE EXCERPT) Tj
+0 -12 Td
+(Verbatim excerpt; line numbers refer to the original source, which was not modified.) Tj
+0 -12 Td
+(001 | # Question: Process the input string according to the required string operation.) Tj
+0 -12 Td
+(002 | # Add your solution here.) Tj
+0 -12 Td
+(003 | ) Tj
+0 -12 Td
+(004 | s = input\(\)) Tj
+0 -12 Td
+(005 | result = []) Tj
+0 -12 Td
+(006 | ) Tj
+0 -12 Td
+(007 | for i in range\(len\(s\)\):) Tj
+0 -12 Td
+(008 |     if i > 0 and s[i].isupper\(\) and s[i-1].islower\(\):) Tj
+0 -12 Td
+(009 |         result.append\(" "\)) Tj
+0 -12 Td
+(010 |     result.append\(s[i]\)) Tj
+0 -12 Td
+(011 | ) Tj
+0 -12 Td
+(012 | print\("".join\(result\)\)) Tj
+0 -12 Td
+(013 | ) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(DRY-RUN NOTE) Tj
+0 -12 Td
+(Trace describes actual source behavior, including errors where applicable.) Tj
+0 -12 Td
+ET
+endstream
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000183 00000 n 
+0000000309 00000 n 
+trailer
+<< /Size 6 /Root 1 0 R >>
+startxref
+1802
+%%EOF

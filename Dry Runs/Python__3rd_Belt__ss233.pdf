@@ -1,0 +1,169 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [4 0 R 6 0 R] /Count 2 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier >>
+endobj
+4 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 5 0 R >>
+endobj
+5 0 obj
+<< /Length 2592 >>
+stream
+BT
+/F1 8.5 Tf
+42 754 Td
+(DRY-RUN GUIDE | ss233.py) Tj
+0 -12 Td
+(Source: Python\\3rd_Belt\\ss233.py) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(CORE BEHAVIOR) Tj
+0 -12 Td
+(Run-length encodes consecutive character groups, but returns the original unless) Tj
+0 -12 Td
+(encoding is strictly shorter.) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(REPRESENTATIVE INPUT) Tj
+0 -12 Td
+(`aaabbc`) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(STEP TRACE) Tj
+0 -12 Td
+(Runs become a3,b2,c1 -> `a3b2c1`, length 6; input length is also 6, so retain original.) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(EXPECTED OUTPUT / RETURN) Tj
+0 -12 Td
+(`aaabbc`) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(ACTUAL SOURCE EXCERPT) Tj
+0 -12 Td
+(Verbatim excerpt from Python\\3rd_Belt\\ss233.py; line numbers refer to the original file.) Tj
+0 -12 Td
+(No source was modified.) Tj
+0 -12 Td
+(001 | # Question: Solve the given array/string challenge using the required logic.) Tj
+0 -12 Td
+(002 | # Add your solution here.) Tj
+0 -12 Td
+(003 | ) Tj
+0 -12 Td
+(004 | def compress_string\(s\):) Tj
+0 -12 Td
+(005 |     # Handle empty string edge case) Tj
+0 -12 Td
+(006 |     if not s:) Tj
+0 -12 Td
+(007 |         return s) Tj
+0 -12 Td
+(008 |         ) Tj
+0 -12 Td
+(009 |     compressed = []) Tj
+0 -12 Td
+(010 |     current_char = s[0]) Tj
+0 -12 Td
+(011 |     count = 1) Tj
+0 -12 Td
+(012 |     ) Tj
+0 -12 Td
+(013 |     # Iterate through the string starting from the second character) Tj
+0 -12 Td
+(014 |     for i in range\(1, len\(s\)\):) Tj
+0 -12 Td
+(015 |         if s[i] == current_char:) Tj
+0 -12 Td
+(016 |             count += 1) Tj
+0 -12 Td
+(017 |         else:) Tj
+0 -12 Td
+(018 |             # Append the character and its consecutive count) Tj
+0 -12 Td
+(019 |             compressed.append\(current_char + str\(count\)\)) Tj
+0 -12 Td
+(020 |             current_char = s[i]) Tj
+0 -12 Td
+(021 |             count = 1) Tj
+0 -12 Td
+(022 |             ) Tj
+0 -12 Td
+(023 |     # Append the last character group) Tj
+0 -12 Td
+(024 |     compressed.append\(current_char + str\(count\)\)) Tj
+0 -12 Td
+(025 |     ) Tj
+0 -12 Td
+(026 |     # Join the list into a single compressed string) Tj
+0 -12 Td
+(027 |     compressed_str = "".join\(compressed\)) Tj
+0 -12 Td
+(028 |     ) Tj
+0 -12 Td
+(029 |     # Return compressed string only if it is strictly shorter than the original) Tj
+0 -12 Td
+(030 |     if len\(compressed_str\) < len\(s\):) Tj
+0 -12 Td
+(031 |         return compressed_str) Tj
+0 -12 Td
+(032 |     else:) Tj
+0 -12 Td
+(033 |         return s) Tj
+0 -12 Td
+(034 | input_string = input\(\)   ) Tj
+0 -12 Td
+(035 | result = compress_string\(input_string\)) Tj
+0 -12 Td
+(036 | print\(result\)) Tj
+0 -12 Td
+ET
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 7 0 R >>
+endobj
+7 0 obj
+<< /Length 278 >>
+stream
+BT
+/F1 8.5 Tf
+42 754 Td
+(037 | ) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(DRY-RUN NOTE) Tj
+0 -12 Td
+(Values are representative. For function-only modules the guide uses an illustrative) Tj
+0 -12 Td
+(direct call and explains its return; quirks/errors describe actual behavior.) Tj
+0 -12 Td
+ET
+endstream
+endobj
+xref
+0 8
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000121 00000 n 
+0000000189 00000 n 
+0000000315 00000 n 
+0000002959 00000 n 
+0000003085 00000 n 
+trailer
+<< /Size 8 /Root 1 0 R >>
+startxref
+3414
+%%EOF

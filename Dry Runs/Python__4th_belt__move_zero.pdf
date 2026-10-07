@@ -1,0 +1,119 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [4 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier >>
+endobj
+4 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 5 0 R >>
+endobj
+5 0 obj
+<< /Length 1955 >>
+stream
+BT
+/F1 8.5 Tf
+42 754 Td
+(DRY-RUN GUIDE | move_zero.py) Tj
+0 -12 Td
+(Source: Python\\4th_belt\\move_zero.py) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(CORE BEHAVIOR) Tj
+0 -12 Td
+(Moves zeros to the end while retaining the relative order of nonzero values.) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(REPRESENTATIVE INPUT) Tj
+0 -12 Td
+([0,1,0,3,12].) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(STEP TRACE) Tj
+0 -12 Td
+(Collect nonzeros 1,3,12; append/fill two zeros.) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(EXPECTED OUTPUT / RETURN) Tj
+0 -12 Td
+([1,3,12,0,0]) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(ACTUAL SOURCE EXCERPT) Tj
+0 -12 Td
+(Verbatim excerpt from Python\\4th_belt\\move_zero.py; line numbers refer to the original) Tj
+0 -12 Td
+(file. No source was modified.) Tj
+0 -12 Td
+(001 | # Question: Move all zeroes to the end of the array while keeping the order of non-zero elements.) Tj
+0 -12 Td
+(002 | # Add your solution here.) Tj
+0 -12 Td
+(003 | ) Tj
+0 -12 Td
+(004 | from typing import List) Tj
+0 -12 Td
+(005 | ) Tj
+0 -12 Td
+(006 | def move_zeroes\(arr: List[int]\) -> None:) Tj
+0 -12 Td
+(007 |     write_index = 0) Tj
+0 -12 Td
+(008 |     ) Tj
+0 -12 Td
+(009 |     for i in range\(len\(arr\)\):) Tj
+0 -12 Td
+(010 |         if arr[i] != 0:) Tj
+0 -12 Td
+(011 |             # Swap the non-zero element with the element at write_index) Tj
+0 -12 Td
+(012 |             arr[i], arr[write_index] = arr[write_index], arr[i]) Tj
+0 -12 Td
+(013 |             write_index += 1) Tj
+0 -12 Td
+(014 | ) Tj
+0 -12 Td
+(015 | if __name__ == "__main__":) Tj
+0 -12 Td
+(016 |     n = int\(input\(\)\)) Tj
+0 -12 Td
+(017 |     arr = list\(map\(int, input\(\).split\(\)\)\)) Tj
+0 -12 Td
+(018 |     move_zeroes\(arr\)) Tj
+0 -12 Td
+(019 |     print\(" ".join\(map\(str, arr\)\)\)) Tj
+0 -12 Td
+(020 | ) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(DRY-RUN NOTE) Tj
+0 -12 Td
+(Values are representative. For function-only modules the guide uses an illustrative) Tj
+0 -12 Td
+(direct call and explains its return; quirks/errors describe actual behavior.) Tj
+0 -12 Td
+ET
+endstream
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000183 00000 n 
+0000000309 00000 n 
+trailer
+<< /Size 6 /Root 1 0 R >>
+startxref
+2316
+%%EOF

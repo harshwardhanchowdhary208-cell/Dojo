@@ -1,0 +1,185 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [4 0 R 6 0 R] /Count 2 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier >>
+endobj
+4 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 5 0 R >>
+endobj
+5 0 obj
+<< /Length 2786 >>
+stream
+BT
+/F1 8.5 Tf
+42 754 Td
+(DRY-RUN GUIDE | gym_equipments.py) Tj
+0 -12 Td
+(Source: ca-2\\psup\\gym_equipments.py) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(CORE BEHAVIOR) Tj
+0 -12 Td
+(Stores equipment counts in a dictionary, applies a booking increment, adds/removes) Tj
+0 -12 Td
+(entries safely, queries usage, then prints total and busiest remaining equipment.) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(REPRESENTATIVE INPUT) Tj
+0 -12 Td
+(Initial treadmill=10,bike=5,rower=8; book treadmill +2; add mats=3; remove bike; query) Tj
+0 -12 Td
+(bike.) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(STEP TRACE) Tj
+0 -12 Td
+(treadmill=12; add mats=3; pop bike=5; lookup removed bike defaults to 0; remaining) Tj
+0 -12 Td
+(total=12+8+3=23; treadmill is busiest.) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(EXPECTED OUTPUT / RETURN) Tj
+0 -12 Td
+(Progress messages; final `Total users: 23` and `Busiest equipment: treadmill \(12\)`.) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(ACTUAL SOURCE EXCERPT) Tj
+0 -12 Td
+(Verbatim excerpt from ca-2\\psup\\gym_equipments.py; line numbers refer to the original) Tj
+0 -12 Td
+(file. No source was modified.) Tj
+0 -12 Td
+(001 | # Gym Equipment Tracker) Tj
+0 -12 Td
+(002 | # Uses a dictionary as the only data type and avoids loops.) Tj
+0 -12 Td
+(003 | ) Tj
+0 -12 Td
+(004 | equipment = {}) Tj
+0 -12 Td
+(005 | ) Tj
+0 -12 Td
+(006 | # Read 3 pieces of equipment directly into the dictionary) Tj
+0 -12 Td
+(007 | name1 = input\(\).strip\(\)) Tj
+0 -12 Td
+(008 | users1 = int\(input\(\).strip\(\)\)) Tj
+0 -12 Td
+(009 | equipment[name1] = users1) Tj
+0 -12 Td
+(010 | print\(f"{name1}: {users1} users"\)) Tj
+0 -12 Td
+(011 | ) Tj
+0 -12 Td
+(012 | name2 = input\(\).strip\(\)) Tj
+0 -12 Td
+(013 | users2 = int\(input\(\).strip\(\)\)) Tj
+0 -12 Td
+(014 | equipment[name2] = users2) Tj
+0 -12 Td
+(015 | print\(f"{name2}: {users2} users"\)) Tj
+0 -12 Td
+(016 | ) Tj
+0 -12 Td
+(017 | name3 = input\(\).strip\(\)) Tj
+0 -12 Td
+(018 | users3 = int\(input\(\).strip\(\)\)) Tj
+0 -12 Td
+(019 | equipment[name3] = users3) Tj
+0 -12 Td
+(020 | print\(f"{name3}: {users3} users"\)) Tj
+0 -12 Td
+(021 | ) Tj
+0 -12 Td
+(022 | # Booking update using dictionary-safe increment) Tj
+0 -12 Td
+(023 | booking_name = input\(\).strip\(\)) Tj
+0 -12 Td
+(024 | amount = int\(input\(\).strip\(\)\)) Tj
+0 -12 Td
+(025 | equipment[booking_name] = equipment.get\(booking_name, 0\) + amount) Tj
+0 -12 Td
+(026 | print\(f"Updated {booking_name}: {equipment[booking_name]} users"\)) Tj
+0 -12 Td
+(027 | ) Tj
+0 -12 Td
+(028 | # Add new equipment to the dictionary) Tj
+0 -12 Td
+(029 | new_name = input\(\).strip\(\)) Tj
+0 -12 Td
+(030 | new_users = int\(input\(\).strip\(\)\)) Tj
+0 -12 Td
+(031 | equipment[new_name] = new_users) Tj
+0 -12 Td
+(032 | print\(f"Added {new_name}: {new_users} users"\)) Tj
+0 -12 Td
+(033 | ) Tj
+0 -12 Td
+(034 | # Remove equipment from the dictionary safely) Tj
+0 -12 Td
+ET
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 7 0 R >>
+endobj
+7 0 obj
+<< /Length 817 >>
+stream
+BT
+/F1 8.5 Tf
+42 754 Td
+(035 | removed_name = input\(\).strip\(\)) Tj
+0 -12 Td
+(036 | removed_users = equipment.pop\(removed_name, 0\)) Tj
+0 -12 Td
+(037 | print\(f"Removed {removed_name} with {removed_users} users"\)) Tj
+0 -12 Td
+(038 | ) Tj
+0 -12 Td
+(039 | # Query equipment usage without raising KeyError) Tj
+0 -12 Td
+(040 | query_name = input\(\).strip\(\)) Tj
+0 -12 Td
+(041 | usage_value = equipment.get\(query_name, 0\)) Tj
+0 -12 Td
+(042 | print\(f"Usage of {query_name}: {usage_value} users"\)) Tj
+0 -12 Td
+(... 13 later source lines omitted; inspect the original.) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(DRY-RUN NOTE) Tj
+0 -12 Td
+(Values are representative. For function-only modules the guide uses an illustrative) Tj
+0 -12 Td
+(direct call and explains its return; quirks/errors describe actual behavior.) Tj
+0 -12 Td
+ET
+endstream
+endobj
+xref
+0 8
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000121 00000 n 
+0000000189 00000 n 
+0000000315 00000 n 
+0000003153 00000 n 
+0000003279 00000 n 
+trailer
+<< /Size 8 /Root 1 0 R >>
+startxref
+4147
+%%EOF

@@ -1,0 +1,125 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [4 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier >>
+endobj
+4 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 5 0 R >>
+endobj
+5 0 obj
+<< /Length 1856 >>
+stream
+BT
+/F1 8.5 Tf
+42 754 Td
+(DRY-RUN GUIDE | 13_expression.cpp) Tj
+0 -12 Td
+(Source: cpp\\1st_belt\\13_expression.cpp) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(CORE BEHAVIOR) Tj
+0 -12 Td
+(Reads four integers and evaluates a+b*c-d/a using C++ precedence and integer division.) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(REPRESENTATIVE INPUT / CALL) Tj
+0 -12 Td
+(Input: `10 2 3 9`.) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(STEP TRACE) Tj
+0 -12 Td
+(Multiply first: 2*3=6; integer divide: 9/10=0; then 10+6-0=16.) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(EXPECTED OUTPUT / RETURN) Tj
+0 -12 Td
+(`16`) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(ACTUAL SOURCE EXCERPT) Tj
+0 -12 Td
+(Verbatim lines from the source; long lines wrap. Source files were not modified.) Tj
+0 -12 Td
+(001 | /*) Tj
+0 -12 Td
+(002 | Question:) Tj
+0 -12 Td
+(003 | You are given four integers a, b, c and d. Your task is to evaluate:) Tj
+0 -12 Td
+(004 | ) Tj
+0 -12 Td
+(005 | result = a + b * c - d / a) Tj
+0 -12 Td
+(006 | ) Tj
+0 -12 Td
+(007 | Use the standard mathematical operator precedence, where multiplication) Tj
+0 -12 Td
+(008 | and division are performed before addition and subtraction. Perform) Tj
+0 -12 Td
+(009 | integer arithmetic throughout, so d / a uses integer division.) Tj
+0 -12 Td
+(010 | ) Tj
+0 -12 Td
+(011 | Input Format:) Tj
+0 -12 Td
+(012 | A single line containing four space-separated integers a, b, c and d.) Tj
+0 -12 Td
+(013 | */) Tj
+0 -12 Td
+(014 | ) Tj
+0 -12 Td
+(015 | #include <iostream>) Tj
+0 -12 Td
+(016 | using namespace std;) Tj
+0 -12 Td
+(017 | ) Tj
+0 -12 Td
+(018 | int main\(\) {) Tj
+0 -12 Td
+(019 |     long long a, b, c, d;) Tj
+0 -12 Td
+(020 |     cin >> a >> b >> c >> d;) Tj
+0 -12 Td
+(021 | ) Tj
+0 -12 Td
+(022 |     long long result = a + b * c - d / a;) Tj
+0 -12 Td
+(023 | ) Tj
+0 -12 Td
+(024 |     cout << result;) Tj
+0 -12 Td
+(025 | ) Tj
+0 -12 Td
+(026 |     return 0;) Tj
+0 -12 Td
+(027 | }) Tj
+0 -12 Td
+(028 | ) Tj
+0 -12 Td
+ET
+endstream
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000183 00000 n 
+0000000309 00000 n 
+trailer
+<< /Size 6 /Root 1 0 R >>
+startxref
+2217
+%%EOF

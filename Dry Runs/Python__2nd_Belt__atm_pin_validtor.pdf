@@ -1,0 +1,127 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [4 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier >>
+endobj
+4 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 5 0 R >>
+endobj
+5 0 obj
+<< /Length 2156 >>
+stream
+BT
+/F1 8.5 Tf
+42 754 Td
+(DRY-RUN GUIDE | atm_pin_validtor.py) Tj
+0 -12 Td
+(Source: Python\\2nd_Belt\\atm_pin_validtor.py) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(CORE BEHAVIOR) Tj
+0 -12 Td
+(Allows up to three PIN attempts. The correct value is the literal string 4321; success) Tj
+0 -12 Td
+(breaks the loop, while three failures deny access.) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(REPRESENTATIVE INPUT) Tj
+0 -12 Td
+(Enter `1111`, then `4321`.) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(STEP TRACE) Tj
+0 -12 Td
+(Attempt 1 mismatches and prints Incorrect PIN. Attempt 2 matches; set) Tj
+0 -12 Td
+(access_granted=True, report two attempts, and break.) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(EXPECTED OUTPUT / RETURN) Tj
+0 -12 Td
+(`Incorrect PIN.` then `Access Granted! You used 2 attempt\(s\).`) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(ACTUAL SOURCE EXCERPT) Tj
+0 -12 Td
+(Verbatim excerpt; line numbers refer to the original source, which was not modified.) Tj
+0 -12 Td
+(001 | # Question: Check whether the entered ATM PIN is valid.) Tj
+0 -12 Td
+(002 | # Add your solution here.) Tj
+0 -12 Td
+(003 | ) Tj
+0 -12 Td
+(004 | correct_pin = "4321") Tj
+0 -12 Td
+(005 | attempts = 0) Tj
+0 -12 Td
+(006 | max_attempts = 3) Tj
+0 -12 Td
+(007 | access_granted = False) Tj
+0 -12 Td
+(008 | ) Tj
+0 -12 Td
+(009 | print\("Welcome to the ATM PIN Validator!"\)) Tj
+0 -12 Td
+(010 | ) Tj
+0 -12 Td
+(011 | while attempts < max_attempts:) Tj
+0 -12 Td
+(012 |     pin_entered = input\(f"Enter your PIN \(Attempt {attempts + 1}/{max_attempts}\): "\)) Tj
+0 -12 Td
+(013 |     attempts += 1) Tj
+0 -12 Td
+(014 | ) Tj
+0 -12 Td
+(015 |     if pin_entered == correct_pin:) Tj
+0 -12 Td
+(016 |         access_granted = True) Tj
+0 -12 Td
+(017 |         print\(f"Access Granted! You used {attempts} attempt\(s\)."\)) Tj
+0 -12 Td
+(018 |         break) Tj
+0 -12 Td
+(019 |     else:) Tj
+0 -12 Td
+(020 |         print\("Incorrect PIN."\)) Tj
+0 -12 Td
+(021 | ) Tj
+0 -12 Td
+(022 | if not access_granted:) Tj
+0 -12 Td
+(023 |     print\(f"Access Denied. You have used all {max_attempts} attempts."\)) Tj
+0 -12 Td
+(024 | ) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(DRY-RUN NOTE) Tj
+0 -12 Td
+(Trace describes actual source behavior, including errors where applicable.) Tj
+0 -12 Td
+ET
+endstream
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000183 00000 n 
+0000000309 00000 n 
+trailer
+<< /Size 6 /Root 1 0 R >>
+startxref
+2517
+%%EOF

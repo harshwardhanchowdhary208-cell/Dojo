@@ -1,0 +1,163 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [4 0 R 6 0 R] /Count 2 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier >>
+endobj
+4 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 5 0 R >>
+endobj
+5 0 obj
+<< /Length 1909 >>
+stream
+BT
+/F1 8.5 Tf
+42 754 Td
+(DRY-RUN GUIDE | prefix_sum.py) Tj
+0 -12 Td
+(Source: Python\\4th_belt\\prefix_sum.py) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(CORE BEHAVIOR) Tj
+0 -12 Td
+(Builds inclusive cumulative sums from left to right.) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(REPRESENTATIVE INPUT) Tj
+0 -12 Td
+([2,1,3,4].) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(STEP TRACE) Tj
+0 -12 Td
+(Running totals: 2, 3, 6, 10.) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(EXPECTED OUTPUT / RETURN) Tj
+0 -12 Td
+([2,3,6,10]) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(ACTUAL SOURCE EXCERPT) Tj
+0 -12 Td
+(Verbatim excerpt from Python\\4th_belt\\prefix_sum.py; line numbers refer to the original) Tj
+0 -12 Td
+(file. No source was modified.) Tj
+0 -12 Td
+(001 | # Question: Compute the prefix sum of each element in the array.) Tj
+0 -12 Td
+(002 | # Add your solution here.) Tj
+0 -12 Td
+(003 | ) Tj
+0 -12 Td
+(004 | a = [3, 4, 1, 7, 9, 1]) Tj
+0 -12 Td
+(005 | ) Tj
+0 -12 Td
+(006 | res = [] ) Tj
+0 -12 Td
+(007 | cur_s= 0 # current sum) Tj
+0 -12 Td
+(008 | ) Tj
+0 -12 Td
+(009 | for num in a:) Tj
+0 -12 Td
+(010 |     cur_s += num) Tj
+0 -12 Td
+(011 |     res.append\(cur_s\)) Tj
+0 -12 Td
+(012 | print\(res\)) Tj
+0 -12 Td
+(013 | ) Tj
+0 -12 Td
+(014 | # or) Tj
+0 -12 Td
+(015 | ) Tj
+0 -12 Td
+(016 | import numpy as np) Tj
+0 -12 Td
+(017 | a = [3, 4, 1, 7, 9, 1]) Tj
+0 -12 Td
+(018 | ) Tj
+0 -12 Td
+(019 | res = np.cumsum\(a\)) Tj
+0 -12 Td
+(020 | print\(res\)) Tj
+0 -12 Td
+(021 | ) Tj
+0 -12 Td
+(022 | # or) Tj
+0 -12 Td
+(023 | ) Tj
+0 -12 Td
+(024 | import itertools) Tj
+0 -12 Td
+(025 | a = [3, 4, 1, 7, 9, 1]) Tj
+0 -12 Td
+(026 | ) Tj
+0 -12 Td
+(027 | res = list\(itertools.accumulate\(a\)\)) Tj
+0 -12 Td
+(028 | print\(res\)) Tj
+0 -12 Td
+(029 | ) Tj
+0 -12 Td
+(030 | # or) Tj
+0 -12 Td
+(031 | ) Tj
+0 -12 Td
+(032 | a = [3, 4, 1, 7, 9, 1]) Tj
+0 -12 Td
+(033 | res = [sum\(a[:i+1]\) for i in range\(len\(a\)\)]) Tj
+0 -12 Td
+(034 | ) Tj
+0 -12 Td
+(035 | print\(res\)) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(DRY-RUN NOTE) Tj
+0 -12 Td
+ET
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 7 0 R >>
+endobj
+7 0 obj
+<< /Length 215 >>
+stream
+BT
+/F1 8.5 Tf
+42 754 Td
+(Values are representative. For function-only modules the guide uses an illustrative) Tj
+0 -12 Td
+(direct call and explains its return; quirks/errors describe actual behavior.) Tj
+0 -12 Td
+ET
+endstream
+endobj
+xref
+0 8
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000121 00000 n 
+0000000189 00000 n 
+0000000315 00000 n 
+0000002276 00000 n 
+0000002402 00000 n 
+trailer
+<< /Size 8 /Root 1 0 R >>
+startxref
+2668
+%%EOF

@@ -1,0 +1,117 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [4 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier >>
+endobj
+4 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 5 0 R >>
+endobj
+5 0 obj
+<< /Length 1824 >>
+stream
+BT
+/F1 8.5 Tf
+42 754 Td
+(DRY-RUN GUIDE | 17_valid_parentheses.py) Tj
+0 -12 Td
+(Source: Python\\dsa_solutions\\17_valid_parentheses.py) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(CORE BEHAVIOR) Tj
+0 -12 Td
+(Uses a stack to match closing brackets with the most recent unmatched opening bracket.) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(REPRESENTATIVE INPUT) Tj
+0 -12 Td
+(`\([]\)`.) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(STEP TRACE) Tj
+0 -12 Td
+(Push \(, push [; ] pops [; \) pops \(; stack ends empty.) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(EXPECTED OUTPUT / RETURN) Tj
+0 -12 Td
+(True) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(ACTUAL SOURCE EXCERPT) Tj
+0 -12 Td
+(Verbatim excerpt from Python\\dsa_solutions\\17_valid_parentheses.py; line numbers refer) Tj
+0 -12 Td
+(to the original file. No source was modified.) Tj
+0 -12 Td
+(001 | import sys) Tj
+0 -12 Td
+(002 | ) Tj
+0 -12 Td
+(003 | ) Tj
+0 -12 Td
+(004 | def main\(\):) Tj
+0 -12 Td
+(005 |     text = sys.stdin.read\(\).strip\(\)) Tj
+0 -12 Td
+(006 |     pairs = {"\)": "\(", "]": "[", "}": "{"}) Tj
+0 -12 Td
+(007 |     stack = []) Tj
+0 -12 Td
+(008 |     for character in text:) Tj
+0 -12 Td
+(009 |         if character in "\([{":) Tj
+0 -12 Td
+(010 |             stack.append\(character\)) Tj
+0 -12 Td
+(011 |         elif character not in pairs or not stack or stack.pop\(\) != pairs[character]:) Tj
+0 -12 Td
+(012 |             print\("false"\)) Tj
+0 -12 Td
+(013 |             return) Tj
+0 -12 Td
+(014 |     print\("true" if not stack else "false"\)) Tj
+0 -12 Td
+(015 | ) Tj
+0 -12 Td
+(016 | ) Tj
+0 -12 Td
+(017 | if __name__ == "__main__":) Tj
+0 -12 Td
+(018 |     main\(\)) Tj
+0 -12 Td
+(019 | ) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(DRY-RUN NOTE) Tj
+0 -12 Td
+(Values are representative. For function-only modules the guide uses an illustrative) Tj
+0 -12 Td
+(direct call and explains its return; quirks/errors describe actual behavior.) Tj
+0 -12 Td
+ET
+endstream
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000183 00000 n 
+0000000309 00000 n 
+trailer
+<< /Size 6 /Root 1 0 R >>
+startxref
+2185
+%%EOF

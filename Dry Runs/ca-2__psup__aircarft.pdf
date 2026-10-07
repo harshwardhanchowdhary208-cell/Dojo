@@ -1,0 +1,173 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [4 0 R 6 0 R] /Count 2 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier >>
+endobj
+4 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 5 0 R >>
+endobj
+5 0 obj
+<< /Length 2753 >>
+stream
+BT
+/F1 8.5 Tf
+42 754 Td
+(DRY-RUN GUIDE | aircarft.py) Tj
+0 -12 Td
+(Source: ca-2\\psup\\aircarft.py) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(CORE BEHAVIOR) Tj
+0 -12 Td
+(This runs as a top-level script. Input reads: input\(\).strip\(\); input\(\).strip\(\);) Tj
+0 -12 Td
+(input\(\).strip\(\); input\(\).strip\(\). Output statements include: print\(f"Initial queue: {',) Tj
+0 -12 Td
+('.join\(arr\)}"\); print\(f"After adding {arrival}: {', '.join\(arr\)}"\); print\(f"After) Tj
+0 -12 Td
+(removing {remove_name}: {', '.join\(arr\)}"\).) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(REPRESENTATIVE INPUT) Tj
+0 -12 Td
+(Supply the fields in order: input\(\).strip\(\) | input\(\).strip\(\) | input\(\).strip\(\) |) Tj
+0 -12 Td
+(input\(\).strip\(\).) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(STEP TRACE) Tj
+0 -12 Td
+(Bind each input to its variable, follow the taken condition and loop updates, then) Tj
+0 -12 Td
+(evaluate the final print expression.) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(EXPECTED OUTPUT / RETURN) Tj
+0 -12 Td
+(Evaluate the listed print expression\(s\) for the assumed values: print\(f"Initial queue:) Tj
+0 -12 Td
+({', '.join\(arr\)}"\); print\(f"After adding {arrival}: {', '.join\(arr\)}"\); print\(f"After) Tj
+0 -12 Td
+(removing {remove_name}: {', '.join\(arr\)}"\). Prompts may also appear.) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(ACTUAL SOURCE EXCERPT) Tj
+0 -12 Td
+(Verbatim excerpt from ca-2\\psup\\aircarft.py; line numbers refer to the original file. No) Tj
+0 -12 Td
+(source was modified.) Tj
+0 -12 Td
+(001 | aircraft1 = input\(\).strip\(\)) Tj
+0 -12 Td
+(002 | aircraft2 = input\(\).strip\(\)) Tj
+0 -12 Td
+(003 | aircraft3 = input\(\).strip\(\)) Tj
+0 -12 Td
+(004 | aircraft4 = input\(\).strip\(\)) Tj
+0 -12 Td
+(005 | aircraft5 = input\(\).strip\(\)) Tj
+0 -12 Td
+(006 | ) Tj
+0 -12 Td
+(007 | arr = [aircraft1, aircraft2, aircraft3, aircraft4, aircraft5]) Tj
+0 -12 Td
+(008 | ) Tj
+0 -12 Td
+(009 | print\(f"Initial queue: {', '.join\(arr\)}"\)) Tj
+0 -12 Td
+(010 | ) Tj
+0 -12 Td
+(011 | arrival = input\(\).strip\(\)) Tj
+0 -12 Td
+(012 | ) Tj
+0 -12 Td
+(013 | arr.append\(arrival\)) Tj
+0 -12 Td
+(014 | ) Tj
+0 -12 Td
+(015 | print\(f"After adding {arrival}: {', '.join\(arr\)}"\)) Tj
+0 -12 Td
+(016 | ) Tj
+0 -12 Td
+(017 | remove_name = input\(\).strip\(\)) Tj
+0 -12 Td
+(018 | ) Tj
+0 -12 Td
+(019 | if remove_name in arr:) Tj
+0 -12 Td
+(020 |     arr.remove\(remove_name\)) Tj
+0 -12 Td
+(021 | ) Tj
+0 -12 Td
+(022 | print\(f"After removing {remove_name}: {', '.join\(arr\)}"\)) Tj
+0 -12 Td
+(023 | ) Tj
+0 -12 Td
+(024 | count_name = input\(\).strip\(\)) Tj
+0 -12 Td
+(025 | ) Tj
+0 -12 Td
+(026 | count = arr.count\(count_name\)) Tj
+0 -12 Td
+(027 | ) Tj
+0 -12 Td
+(028 | print\(f"Occurrences of {count_name}: {count}"\)) Tj
+0 -12 Td
+(029 | ) Tj
+0 -12 Td
+(030 | print\(f"First: {arr[0]}, Last: {arr[-1]}"\)) Tj
+0 -12 Td
+ET
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 7 0 R >>
+endobj
+7 0 obj
+<< /Length 360 >>
+stream
+BT
+/F1 8.5 Tf
+42 754 Td
+(031 | ) Tj
+0 -12 Td
+(032 | print\(f"Total aircraft: {len\(arr\)}"\)) Tj
+0 -12 Td
+(033 | ) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(DRY-RUN NOTE) Tj
+0 -12 Td
+(Values are representative. For function-only modules the guide uses an illustrative) Tj
+0 -12 Td
+(direct call and explains its return; quirks/errors describe actual behavior.) Tj
+0 -12 Td
+ET
+endstream
+endobj
+xref
+0 8
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000121 00000 n 
+0000000189 00000 n 
+0000000315 00000 n 
+0000003120 00000 n 
+0000003246 00000 n 
+trailer
+<< /Size 8 /Root 1 0 R >>
+startxref
+3657
+%%EOF
