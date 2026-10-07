@@ -1,5 +1,5 @@
-# Question: What problem does this code solve?
-# Compute the average value of all elements in a matrix.
+# Question: Compute the average value of all elements in a matrix.
+# Add your solution here.
 
 
 def average_of_matrix(matrix):
@@ -7,7 +7,7 @@ def average_of_matrix(matrix):
         return 0.0
 
     total_sum = sum(sum(row) for row in matrix)
-    total_elements = sum(len(row) for row in matrix)
+    total_elements = rows*cols
     return total_sum / total_elements
 
 

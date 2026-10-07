@@ -1,4 +1,4 @@
-# Question: What problem does this code solve?
+# Question: Read a matrix and print it in reverse row order.
 # Add your solution here.
 
 def print_reversed_matrix(rows, cols, matrix):

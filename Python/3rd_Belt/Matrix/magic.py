@@ -1,5 +1,5 @@
-# Question: What problem does this code solve?
-# Check whether a square matrix is a magic square.
+# Question: Check whether a square matrix is a magic square.
+# Add your solution here.
 
 
 def is_magic_square(matrix, N=None):
