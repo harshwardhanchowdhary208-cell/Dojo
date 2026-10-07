@@ -1,0 +1,189 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [4 0 R 6 0 R] /Count 2 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier >>
+endobj
+4 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 5 0 R >>
+endobj
+5 0 obj
+<< /Length 2515 >>
+stream
+BT
+/F1 8.5 Tf
+42 754 Td
+(DRY-RUN GUIDE | 15_vending_machine.cpp) Tj
+0 -12 Td
+(Source: cpp\\1st_belt\\15_vending_machine.cpp) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(CORE BEHAVIOR) Tj
+0 -12 Td
+(vendingMachine maps choices 1..5 to snack/exit strings and returns Invalid choice! for) Tj
+0 -12 Td
+(other values. main prints the returned string.) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(REPRESENTATIVE INPUT / CALL) Tj
+0 -12 Td
+(Input: `3`.) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(STEP TRACE) Tj
+0 -12 Td
+(switch matches case 3 and returns `Spicy marshmallows`; main streams that return value.) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(EXPECTED OUTPUT / RETURN) Tj
+0 -12 Td
+(`Spicy marshmallows`) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(ACTUAL SOURCE EXCERPT) Tj
+0 -12 Td
+(Verbatim lines from the source; long lines wrap. Source files were not modified.) Tj
+0 -12 Td
+(001 | /*) Tj
+0 -12 Td
+(002 | Question:) Tj
+0 -12 Td
+(003 | Write a program that takes the user's choice as input and prints the) Tj
+0 -12 Td
+(004 | corresponding snack from the vending machine. If the choice is invalid,) Tj
+0 -12 Td
+(005 | print "Invalid choice!".) Tj
+0 -12 Td
+(006 | ) Tj
+0 -12 Td
+(007 | The vending machine has the following "delights":) Tj
+0 -12 Td
+(008 | ) Tj
+0 -12 Td
+(009 | 1: Broccoli-flavoured ice cream) Tj
+0 -12 Td
+(010 | 2: Chocolate-covered onions) Tj
+0 -12 Td
+(011 | 3: Spicy marshmallows) Tj
+0 -12 Td
+(012 | 4: Fizzy pickle juice) Tj
+0 -12 Td
+(013 | 5: Exit \(to save yourself from regret\)) Tj
+0 -12 Td
+(014 | ) Tj
+0 -12 Td
+(015 | Input Format:) Tj
+0 -12 Td
+(016 | A single integer between 1 and 5 representing the user's choice.) Tj
+0 -12 Td
+(017 | ) Tj
+0 -12 Td
+(018 | Output Format:) Tj
+0 -12 Td
+(019 | The snack name corresponding to the selected choice, or "Invalid choice!") Tj
+0 -12 Td
+(020 | if the input is outside the range 1-5.) Tj
+0 -12 Td
+(021 | */) Tj
+0 -12 Td
+(022 | ) Tj
+0 -12 Td
+(023 | #include <iostream>) Tj
+0 -12 Td
+(024 | #include <string>) Tj
+0 -12 Td
+(025 | using namespace std;) Tj
+0 -12 Td
+(026 | ) Tj
+0 -12 Td
+(027 | string vendingMachine\(int choice\) {) Tj
+0 -12 Td
+(028 |     switch \(choice\) {) Tj
+0 -12 Td
+(029 |         case 1:) Tj
+0 -12 Td
+(030 |             return "Broccoli-flavoured ice cream";) Tj
+0 -12 Td
+(031 |         case 2:) Tj
+0 -12 Td
+(032 |             return "Chocolate-covered onions";) Tj
+0 -12 Td
+(033 |         case 3:) Tj
+0 -12 Td
+(034 |             return "Spicy marshmallows";) Tj
+0 -12 Td
+(035 |         case 4:) Tj
+0 -12 Td
+(036 |             return "Fizzy pickle juice";) Tj
+0 -12 Td
+(037 |         case 5:) Tj
+0 -12 Td
+ET
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 7 0 R >>
+endobj
+7 0 obj
+<< /Length 524 >>
+stream
+BT
+/F1 8.5 Tf
+42 754 Td
+(038 |             return "Exit";) Tj
+0 -12 Td
+(039 |         default:) Tj
+0 -12 Td
+(040 |             return "Invalid choice!";) Tj
+0 -12 Td
+(041 |     }) Tj
+0 -12 Td
+(042 | }) Tj
+0 -12 Td
+(043 | ) Tj
+0 -12 Td
+(044 | int main\(\) {) Tj
+0 -12 Td
+(045 |     int choice;) Tj
+0 -12 Td
+(046 |     cin >> choice;) Tj
+0 -12 Td
+(047 | ) Tj
+0 -12 Td
+(048 |     cout << vendingMachine\(choice\);) Tj
+0 -12 Td
+(049 | ) Tj
+0 -12 Td
+(050 |     return 0;) Tj
+0 -12 Td
+(051 | }) Tj
+0 -12 Td
+(052 | ) Tj
+0 -12 Td
+ET
+endstream
+endobj
+xref
+0 8
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000121 00000 n 
+0000000189 00000 n 
+0000000315 00000 n 
+0000002882 00000 n 
+0000003008 00000 n 
+trailer
+<< /Size 8 /Root 1 0 R >>
+startxref
+3583
+%%EOF

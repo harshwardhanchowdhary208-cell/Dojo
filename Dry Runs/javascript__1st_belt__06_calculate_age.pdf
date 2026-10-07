@@ -1,0 +1,109 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [4 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier >>
+endobj
+4 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 5 0 R >>
+endobj
+5 0 obj
+<< /Length 1889 >>
+stream
+BT
+/F1 8.5 Tf
+42 754 Td
+(DRY-RUN GUIDE | 06_calculate_age.js) Tj
+0 -12 Td
+(Source: javascript\\1st_belt\\06_calculate_age.js) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(CORE BEHAVIOR) Tj
+0 -12 Td
+(calculateAge subtracts birth year from present year and prints a sentence. Top-level) Tj
+0 -12 Td
+(code reads two whitespace-delimited values and parses integers.) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(REPRESENTATIVE INPUT / CALL) Tj
+0 -12 Td
+(Input lines: 2024 and 2003.) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(STEP TRACE) Tj
+0 -12 Td
+(calculateAge\(2024,2003\) computes 21 and interpolates it into the output string.) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(EXPECTED OUTPUT / RETURN) Tj
+0 -12 Td
+(`You are 21 years old!`) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(ACTUAL SOURCE EXCERPT) Tj
+0 -12 Td
+(Verbatim lines from the source; long lines wrap. Source files were not modified.) Tj
+0 -12 Td
+(001 | // Question:) Tj
+0 -12 Td
+(002 | // Write calculateAge\(present_year, year_of_birth\).) Tj
+0 -12 Td
+(003 | // Calculate the age by subtracting year_of_birth from present_year,) Tj
+0 -12 Td
+(004 | // then print: You are <age> years old!) Tj
+0 -12 Td
+(005 | // Input is two lines: present year, then year of birth.) Tj
+0 -12 Td
+(006 | // Example: 2024 and 2003 -> You are 21 years old!) Tj
+0 -12 Td
+(007 | ) Tj
+0 -12 Td
+(008 | function calculateAge\(present_year, year_of_birth\) {) Tj
+0 -12 Td
+(009 |     const age = present_year - year_of_birth;) Tj
+0 -12 Td
+(010 |     console.log\(`You are ${age} years old!`\);) Tj
+0 -12 Td
+(011 | }) Tj
+0 -12 Td
+(012 | ) Tj
+0 -12 Td
+(013 | const fs = require\("fs"\);) Tj
+0 -12 Td
+(014 | const lines = fs.readFileSync\(0, "utf8"\).trim\(\).split\(/\\s+/\);) Tj
+0 -12 Td
+(015 | const present_year = parseInt\(lines[0], 10\);) Tj
+0 -12 Td
+(016 | const year_of_birth = parseInt\(lines[1], 10\);) Tj
+0 -12 Td
+(017 | ) Tj
+0 -12 Td
+(018 | calculateAge\(present_year, year_of_birth\);) Tj
+0 -12 Td
+(019 | ) Tj
+0 -12 Td
+ET
+endstream
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000183 00000 n 
+0000000309 00000 n 
+trailer
+<< /Size 6 /Root 1 0 R >>
+startxref
+2250
+%%EOF

@@ -1,0 +1,139 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [4 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier >>
+endobj
+4 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 5 0 R >>
+endobj
+5 0 obj
+<< /Length 2277 >>
+stream
+BT
+/F1 8.5 Tf
+42 754 Td
+(DRY-RUN GUIDE | dojo3.py) Tj
+0 -12 Td
+(Source: Python\\2nd_Belt\\dojo3.py) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(CORE BEHAVIOR) Tj
+0 -12 Td
+(Removes the first occurrence of word W from string S; prints S unchanged when W is) Tj
+0 -12 Td
+(absent.) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(REPRESENTATIVE INPUT) Tj
+0 -12 Td
+(S=`bananas`, W=`ana`.) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(STEP TRACE) Tj
+0 -12 Td
+(i=0 gives `ban` \(no match\); i=1 gives `ana`; print S[:1]+S[4:] = `b`+`nas`.) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(EXPECTED OUTPUT / RETURN) Tj
+0 -12 Td
+(`bnas`) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(ACTUAL SOURCE EXCERPT) Tj
+0 -12 Td
+(Verbatim excerpt from Python\\2nd_Belt\\dojo3.py; line numbers refer to the original file.) Tj
+0 -12 Td
+(No source was modified.) Tj
+0 -12 Td
+(001 | # Question: Solve the given Dojo challenge using the specified logic.) Tj
+0 -12 Td
+(002 | # Add your solution here.) Tj
+0 -12 Td
+(003 | ) Tj
+0 -12 Td
+(004 | def sum_digits_until_single\(num\):) Tj
+0 -12 Td
+(005 | ) Tj
+0 -12 Td
+(006 |     while num >= 10:) Tj
+0 -12 Td
+(007 |         total = 0) Tj
+0 -12 Td
+(008 |         while num > 0:) Tj
+0 -12 Td
+(009 |             total += num % 10) Tj
+0 -12 Td
+(010 |             num //= 10) Tj
+0 -12 Td
+(011 |         num = total) Tj
+0 -12 Td
+(012 |     return num) Tj
+0 -12 Td
+(013 | ) Tj
+0 -12 Td
+(014 | ) Tj
+0 -12 Td
+(015 | if __name__ == "__main__":) Tj
+0 -12 Td
+(016 |     try:) Tj
+0 -12 Td
+(017 |         user_input = input\("Enter a non-negative integer: "\).strip\(\)) Tj
+0 -12 Td
+(018 | ) Tj
+0 -12 Td
+(019 |         if not user_input.isdigit\(\):) Tj
+0 -12 Td
+(020 |             raise ValueError\("Input must be a non-negative integer."\)) Tj
+0 -12 Td
+(021 | ) Tj
+0 -12 Td
+(022 |         number = int\(user_input\)) Tj
+0 -12 Td
+(023 | ) Tj
+0 -12 Td
+(024 |         result = sum_digits_until_single\(number\)) Tj
+0 -12 Td
+(025 |         print\(f"Single-digit sum: {result}"\)) Tj
+0 -12 Td
+(026 | ) Tj
+0 -12 Td
+(027 |     except ValueError as e:) Tj
+0 -12 Td
+(028 |         print\(f"Error: {e}"\)) Tj
+0 -12 Td
+(029 | ) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(DRY-RUN NOTE) Tj
+0 -12 Td
+(Values are representative. For function-only modules the guide uses an illustrative) Tj
+0 -12 Td
+(direct call and explains its return; quirks/errors describe actual behavior.) Tj
+0 -12 Td
+ET
+endstream
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000183 00000 n 
+0000000309 00000 n 
+trailer
+<< /Size 6 /Root 1 0 R >>
+startxref
+2638
+%%EOF

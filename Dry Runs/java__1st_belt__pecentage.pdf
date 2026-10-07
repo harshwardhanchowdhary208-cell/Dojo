@@ -1,0 +1,141 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [4 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier >>
+endobj
+4 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 5 0 R >>
+endobj
+5 0 obj
+<< /Length 2477 >>
+stream
+BT
+/F1 8.5 Tf
+42 754 Td
+(DRY-RUN GUIDE | pecentage.java) Tj
+0 -12 Td
+(Source: java\\1st_belt\\pecentage.java) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(CORE BEHAVIOR) Tj
+0 -12 Td
+(Reads obtained and total marks, casts before division to force floating-point) Tj
+0 -12 Td
+(arithmetic, multiplies by 100, and formats to two decimals.) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(REPRESENTATIVE INPUT / CALL) Tj
+0 -12 Td
+(Input: `45 60`.) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(STEP TRACE) Tj
+0 -12 Td
+(45.0/60=0.75; times 100=75.0; format with two fractional digits.) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(EXPECTED OUTPUT / RETURN) Tj
+0 -12 Td
+(`75.00`) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(ACTUAL SOURCE EXCERPT) Tj
+0 -12 Td
+(Verbatim lines from the source; long lines wrap. Source files were not modified.) Tj
+0 -12 Td
+(001 | /*) Tj
+0 -12 Td
+(002 | Challenge #5) Tj
+0 -12 Td
+(003 | ) Tj
+0 -12 Td
+(004 | You are given the marks obtained by a student and the total \(maximum\) marks. ) Tj
+0 -12 Td
+(005 | Your task is to calculate the percentage scored and print it rounded to two decimal) Tj
+0 -12 Td
+(      places.) Tj
+0 -12 Td
+(006 | ) Tj
+0 -12 Td
+(007 | The percentage is calculated using the formula:) Tj
+0 -12 Td
+(008 | percentage = \(marks_obtained / total_marks\) * 100) Tj
+0 -12 Td
+(009 | ) Tj
+0 -12 Td
+(010 | Use floating-point division, not integer division.) Tj
+0 -12 Td
+(011 | ) Tj
+0 -12 Td
+(012 | Input Format:) Tj
+0 -12 Td
+(013 | - A single line containing two space-separated integers marks_obtained and) Tj
+0 -12 Td
+(      total_marks) Tj
+0 -12 Td
+(014 | ) Tj
+0 -12 Td
+(015 | Output Format:) Tj
+0 -12 Td
+(016 | - Print the percentage scored, rounded to two decimal places.) Tj
+0 -12 Td
+(017 | */) Tj
+0 -12 Td
+(018 | ) Tj
+0 -12 Td
+(019 | import java.util.Scanner;) Tj
+0 -12 Td
+(020 | ) Tj
+0 -12 Td
+(021 | public class Solution {) Tj
+0 -12 Td
+(022 |     public static void main\(String[] args\) {) Tj
+0 -12 Td
+(023 |         Scanner sc = new Scanner\(System.in\);) Tj
+0 -12 Td
+(024 |         // Read marks_obtained and total_marks) Tj
+0 -12 Td
+(025 |         int marks_obtained = sc.nextInt\(\);) Tj
+0 -12 Td
+(026 |         int total_marks = sc.nextInt\(\);) Tj
+0 -12 Td
+(027 |         ) Tj
+0 -12 Td
+(028 |         // Calculate and print percentage to 2 decimal places) Tj
+0 -12 Td
+(029 |         float percentage = \(\(float\)marks_obtained / total_marks\) * 100.0f;) Tj
+0 -12 Td
+(030 |         System.out.printf\("%.2f\\n", percentage\);) Tj
+0 -12 Td
+(031 |     }) Tj
+0 -12 Td
+(032 | }) Tj
+0 -12 Td
+(033 | ) Tj
+0 -12 Td
+ET
+endstream
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000183 00000 n 
+0000000309 00000 n 
+trailer
+<< /Size 6 /Root 1 0 R >>
+startxref
+2838
+%%EOF

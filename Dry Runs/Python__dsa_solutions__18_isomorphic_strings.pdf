@@ -1,0 +1,127 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [4 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier >>
+endobj
+4 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 5 0 R >>
+endobj
+5 0 obj
+<< /Length 2014 >>
+stream
+BT
+/F1 8.5 Tf
+42 754 Td
+(DRY-RUN GUIDE | 18_isomorphic_strings.py) Tj
+0 -12 Td
+(Source: Python\\dsa_solutions\\18_isomorphic_strings.py) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(CORE BEHAVIOR) Tj
+0 -12 Td
+(Checks for a consistent one-to-one character mapping between strings.) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(REPRESENTATIVE INPUT) Tj
+0 -12 Td
+(`egg`, `add`.) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(STEP TRACE) Tj
+0 -12 Td
+(Map e->a, g->d; the repeated g maps to the same d.) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(EXPECTED OUTPUT / RETURN) Tj
+0 -12 Td
+(True) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(ACTUAL SOURCE EXCERPT) Tj
+0 -12 Td
+(Verbatim excerpt from Python\\dsa_solutions\\18_isomorphic_strings.py; line numbers refer) Tj
+0 -12 Td
+(to the original file. No source was modified.) Tj
+0 -12 Td
+(001 | import sys) Tj
+0 -12 Td
+(002 | ) Tj
+0 -12 Td
+(003 | ) Tj
+0 -12 Td
+(004 | def are_isomorphic\(first, second\):) Tj
+0 -12 Td
+(005 |     if len\(first\) != len\(second\):) Tj
+0 -12 Td
+(006 |         return False) Tj
+0 -12 Td
+(007 |     forward = {}) Tj
+0 -12 Td
+(008 |     backward = {}) Tj
+0 -12 Td
+(009 |     for left, right in zip\(first, second\):) Tj
+0 -12 Td
+(010 |         if forward.get\(left, right\) != right or backward.get\(right, left\) != left:) Tj
+0 -12 Td
+(011 |             return False) Tj
+0 -12 Td
+(012 |         forward[left] = right) Tj
+0 -12 Td
+(013 |         backward[right] = left) Tj
+0 -12 Td
+(014 |     return True) Tj
+0 -12 Td
+(015 | ) Tj
+0 -12 Td
+(016 | ) Tj
+0 -12 Td
+(017 | def main\(\):) Tj
+0 -12 Td
+(018 |     first, second = sys.stdin.read\(\).split\(\)) Tj
+0 -12 Td
+(019 |     print\("true" if are_isomorphic\(first, second\) else "false"\)) Tj
+0 -12 Td
+(020 | ) Tj
+0 -12 Td
+(021 | ) Tj
+0 -12 Td
+(022 | if __name__ == "__main__":) Tj
+0 -12 Td
+(023 |     main\(\)) Tj
+0 -12 Td
+(024 | ) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(DRY-RUN NOTE) Tj
+0 -12 Td
+(Values are representative. For function-only modules the guide uses an illustrative) Tj
+0 -12 Td
+(direct call and explains its return; quirks/errors describe actual behavior.) Tj
+0 -12 Td
+ET
+endstream
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000183 00000 n 
+0000000309 00000 n 
+trailer
+<< /Size 6 /Root 1 0 R >>
+startxref
+2375
+%%EOF

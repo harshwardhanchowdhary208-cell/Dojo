@@ -1,0 +1,179 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [4 0 R 6 0 R] /Count 2 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier >>
+endobj
+4 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 5 0 R >>
+endobj
+5 0 obj
+<< /Length 2278 >>
+stream
+BT
+/F1 8.5 Tf
+42 754 Td
+(DRY-RUN GUIDE | suffix_sum.py) Tj
+0 -12 Td
+(Source: Python\\4th_belt\\suffix_sum.py) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(CORE BEHAVIOR) Tj
+0 -12 Td
+(Builds cumulative sums from right to left.) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(REPRESENTATIVE INPUT) Tj
+0 -12 Td
+([2,1,3,4].) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(STEP TRACE) Tj
+0 -12 Td
+(From right: 4, 7, 8, 10; place them at original indices.) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(EXPECTED OUTPUT / RETURN) Tj
+0 -12 Td
+([10,8,7,4]) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(ACTUAL SOURCE EXCERPT) Tj
+0 -12 Td
+(Verbatim excerpt from Python\\4th_belt\\suffix_sum.py; line numbers refer to the original) Tj
+0 -12 Td
+(file. No source was modified.) Tj
+0 -12 Td
+(001 | # Question: Compute the suffix sum of each element in the array.) Tj
+0 -12 Td
+(002 | # Add your solution here.) Tj
+0 -12 Td
+(003 | ) Tj
+0 -12 Td
+(004 | # Python3 code to demonstrate) Tj
+0 -12 Td
+(005 | # Suffix List Sum) Tj
+0 -12 Td
+(006 | # using list comprehension + sum\(\) + list slicing) Tj
+0 -12 Td
+(007 | ) Tj
+0 -12 Td
+(008 | # initializing list) Tj
+0 -12 Td
+(009 | test_list = [3, 4, 1, 7, 9, 1]) Tj
+0 -12 Td
+(010 | ) Tj
+0 -12 Td
+(011 | # printing original list) Tj
+0 -12 Td
+(012 | print\("The original list : " + str\(test_list\)\)) Tj
+0 -12 Td
+(013 | ) Tj
+0 -12 Td
+(014 | # using list comprehension + sum\(\) + list slicing) Tj
+0 -12 Td
+(015 | # Suffix List Sum) Tj
+0 -12 Td
+(016 | test_list.reverse\(\)) Tj
+0 -12 Td
+(017 | res = [sum\(test_list[: i + 1]\) for i in range\(len\(test_list\)\)]) Tj
+0 -12 Td
+(018 | ) Tj
+0 -12 Td
+(019 | # print result) Tj
+0 -12 Td
+(020 | print\("The suffix sum list is : " + str\(res\)\)) Tj
+0 -12 Td
+(021 | ) Tj
+0 -12 Td
+(022 | # or) Tj
+0 -12 Td
+(023 | ) Tj
+0 -12 Td
+(024 | def suffix_sum\(lst\):) Tj
+0 -12 Td
+(025 |     result = []) Tj
+0 -12 Td
+(026 |     sum = 0) Tj
+0 -12 Td
+(027 |     for i in range\(len\(lst\) - 1, -1, -1\):) Tj
+0 -12 Td
+(028 |         sum += lst[i]) Tj
+0 -12 Td
+(029 |         result.append\(sum\)) Tj
+0 -12 Td
+(030 |     return result) Tj
+0 -12 Td
+(031 | ) Tj
+0 -12 Td
+(032 | ) Tj
+0 -12 Td
+(033 |   # input sample list) Tj
+0 -12 Td
+(034 | test_list = [3, 4, 1, 7, 9, 1]) Tj
+0 -12 Td
+(035 | print\("The original list :", test_list\)) Tj
+0 -12 Td
+(036 | ) Tj
+0 -12 Td
+(037 | res = suffix_sum\(test_list\)) Tj
+0 -12 Td
+ET
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 7 0 R >>
+endobj
+7 0 obj
+<< /Length 493 >>
+stream
+BT
+/F1 8.5 Tf
+42 754 Td
+(038 | ) Tj
+0 -12 Td
+(039 | # printing list ) Tj
+0 -12 Td
+(040 | print\("The suffix sum list is :", res\)) Tj
+0 -12 Td
+(041 | ) Tj
+0 -12 Td
+(042 | # or) Tj
+0 -12 Td
+(... 94 later source lines omitted; inspect the original.) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(DRY-RUN NOTE) Tj
+0 -12 Td
+(Values are representative. For function-only modules the guide uses an illustrative) Tj
+0 -12 Td
+(direct call and explains its return; quirks/errors describe actual behavior.) Tj
+0 -12 Td
+ET
+endstream
+endobj
+xref
+0 8
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000121 00000 n 
+0000000189 00000 n 
+0000000315 00000 n 
+0000002645 00000 n 
+0000002771 00000 n 
+trailer
+<< /Size 8 /Root 1 0 R >>
+startxref
+3315
+%%EOF

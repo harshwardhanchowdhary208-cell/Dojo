@@ -1,0 +1,203 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [4 0 R 6 0 R] /Count 2 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier >>
+endobj
+4 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 5 0 R >>
+endobj
+5 0 obj
+<< /Length 2098 >>
+stream
+BT
+/F1 8.5 Tf
+42 754 Td
+(DRY-RUN GUIDE | 02_armstrong_number.cpp) Tj
+0 -12 Td
+(Source: cpp\\2nd_belt\\02_armstrong_number.cpp) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(CORE BEHAVIOR) Tj
+0 -12 Td
+(Counts decimal digits, raises each digit to that count using multiplication, and) Tj
+0 -12 Td
+(compares the sum to the original number.) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(REPRESENTATIVE INPUT / CALL) Tj
+0 -12 Td
+(Input: `153`.) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(STEP TRACE) Tj
+0 -12 Td
+(Digit count=3. Accumulate 3^3=27, 5^3=125, 1^3=1; sum=153, equal to original.) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(EXPECTED OUTPUT / RETURN) Tj
+0 -12 Td
+(`Armstrong`) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(ACTUAL SOURCE EXCERPT) Tj
+0 -12 Td
+(Verbatim lines from the source; long lines wrap. Source files were not modified.) Tj
+0 -12 Td
+(001 | /*) Tj
+0 -12 Td
+(002 | Question:) Tj
+0 -12 Td
+(003 | The input consists of a single integer N.) Tj
+0 -12 Td
+(004 | ) Tj
+0 -12 Td
+(005 | Print "Armstrong" if the input number is an Armstrong number,) Tj
+0 -12 Td
+(006 | otherwise print "Not Armstrong".) Tj
+0 -12 Td
+(007 | ) Tj
+0 -12 Td
+(008 | Example:) Tj
+0 -12 Td
+(009 | Input: 153) Tj
+0 -12 Td
+(010 | Output: Armstrong) Tj
+0 -12 Td
+(011 | ) Tj
+0 -12 Td
+(012 | 153 has 3 digits:) Tj
+0 -12 Td
+(013 | 1^3 + 5^3 + 3^3 = 1 + 125 + 27 = 153.) Tj
+0 -12 Td
+(014 | */) Tj
+0 -12 Td
+(015 | ) Tj
+0 -12 Td
+(016 | #include <iostream>) Tj
+0 -12 Td
+(017 | using namespace std;) Tj
+0 -12 Td
+(018 | ) Tj
+0 -12 Td
+(019 | int main\(\) {) Tj
+0 -12 Td
+(020 |     int n;) Tj
+0 -12 Td
+(021 |     cin >> n;) Tj
+0 -12 Td
+(022 | ) Tj
+0 -12 Td
+(023 |     int original = n;) Tj
+0 -12 Td
+(024 |     int digits = 0;) Tj
+0 -12 Td
+(025 |     int temp = n;) Tj
+0 -12 Td
+(026 | ) Tj
+0 -12 Td
+(027 |     if \(temp == 0\) {) Tj
+0 -12 Td
+(028 |         digits = 1;) Tj
+0 -12 Td
+(029 |     } else {) Tj
+0 -12 Td
+(030 |         while \(temp != 0\) {) Tj
+0 -12 Td
+(031 |             digits++;) Tj
+0 -12 Td
+(032 |             temp /= 10;) Tj
+0 -12 Td
+(033 |         }) Tj
+0 -12 Td
+(034 |     }) Tj
+0 -12 Td
+(035 | ) Tj
+0 -12 Td
+(036 |     long long sum = 0;) Tj
+0 -12 Td
+(037 |     temp = n;) Tj
+0 -12 Td
+ET
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 7 0 R >>
+endobj
+7 0 obj
+<< /Length 815 >>
+stream
+BT
+/F1 8.5 Tf
+42 754 Td
+(038 | ) Tj
+0 -12 Td
+(039 |     while \(temp != 0\) {) Tj
+0 -12 Td
+(040 |         int digit = temp % 10;) Tj
+0 -12 Td
+(041 |         long long power = 1;) Tj
+0 -12 Td
+(042 | ) Tj
+0 -12 Td
+(043 |         for \(int i = 0; i < digits; i++\) {) Tj
+0 -12 Td
+(044 |             power *= digit;) Tj
+0 -12 Td
+(045 |         }) Tj
+0 -12 Td
+(046 | ) Tj
+0 -12 Td
+(047 |         sum += power;) Tj
+0 -12 Td
+(048 |         temp /= 10;) Tj
+0 -12 Td
+(049 |     }) Tj
+0 -12 Td
+(050 | ) Tj
+0 -12 Td
+(051 |     if \(sum == original\) {) Tj
+0 -12 Td
+(052 |         cout << "Armstrong";) Tj
+0 -12 Td
+(053 |     } else {) Tj
+0 -12 Td
+(054 |         cout << "Not Armstrong";) Tj
+0 -12 Td
+(055 |     }) Tj
+0 -12 Td
+(056 | ) Tj
+0 -12 Td
+(057 |     return 0;) Tj
+0 -12 Td
+(058 | }) Tj
+0 -12 Td
+(059 | ) Tj
+0 -12 Td
+ET
+endstream
+endobj
+xref
+0 8
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000121 00000 n 
+0000000189 00000 n 
+0000000315 00000 n 
+0000002465 00000 n 
+0000002591 00000 n 
+trailer
+<< /Size 8 /Root 1 0 R >>
+startxref
+3457
+%%EOF

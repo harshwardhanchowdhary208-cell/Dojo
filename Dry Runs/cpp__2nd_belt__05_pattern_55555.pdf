@@ -1,0 +1,139 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [4 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier >>
+endobj
+4 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 5 0 R >>
+endobj
+5 0 obj
+<< /Length 1899 >>
+stream
+BT
+/F1 8.5 Tf
+42 754 Td
+(DRY-RUN GUIDE | 05_pattern_55555.cpp) Tj
+0 -12 Td
+(Source: cpp\\2nd_belt\\05_pattern_55555.cpp) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(CORE BEHAVIOR) Tj
+0 -12 Td
+(For each descending i from N to 1, prints i exactly i times on a line.) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(REPRESENTATIVE INPUT / CALL) Tj
+0 -12 Td
+(Input: `5`.) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(STEP TRACE) Tj
+0 -12 Td
+(i=5 emits five 5s; then 4 emits four 4s; continue through one 1.) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(EXPECTED OUTPUT / RETURN) Tj
+0 -12 Td
+(55555 / 4444 / 333 / 22 / 1 \(each on its own line\).) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(ACTUAL SOURCE EXCERPT) Tj
+0 -12 Td
+(Verbatim lines from the source; long lines wrap. Source files were not modified.) Tj
+0 -12 Td
+(001 | /*) Tj
+0 -12 Td
+(002 | Question:) Tj
+0 -12 Td
+(003 | Write a program to generate and print the given number pattern.) Tj
+0 -12 Td
+(004 | ) Tj
+0 -12 Td
+(005 | For N = 5:) Tj
+0 -12 Td
+(006 | 55555) Tj
+0 -12 Td
+(007 | 4444) Tj
+0 -12 Td
+(008 | 333) Tj
+0 -12 Td
+(009 | 22) Tj
+0 -12 Td
+(010 | 1) Tj
+0 -12 Td
+(011 | ) Tj
+0 -12 Td
+(012 | Input Format:) Tj
+0 -12 Td
+(013 | The input consists of a single integer N.) Tj
+0 -12 Td
+(014 | ) Tj
+0 -12 Td
+(015 | Output Format:) Tj
+0 -12 Td
+(016 | Print the number pattern as described.) Tj
+0 -12 Td
+(017 | */) Tj
+0 -12 Td
+(018 | ) Tj
+0 -12 Td
+(019 | #include <iostream>) Tj
+0 -12 Td
+(020 | using namespace std;) Tj
+0 -12 Td
+(021 | ) Tj
+0 -12 Td
+(022 | int main\(\) {) Tj
+0 -12 Td
+(023 |     int n;) Tj
+0 -12 Td
+(024 |     cin >> n;) Tj
+0 -12 Td
+(025 | ) Tj
+0 -12 Td
+(026 |     for \(int i = n; i >= 1; i--\) {) Tj
+0 -12 Td
+(027 |         for \(int j = 1; j <= i; j++\) {) Tj
+0 -12 Td
+(028 |             cout << i;) Tj
+0 -12 Td
+(029 |         }) Tj
+0 -12 Td
+(030 |         cout << '\\n';) Tj
+0 -12 Td
+(031 |     }) Tj
+0 -12 Td
+(032 | ) Tj
+0 -12 Td
+(033 |     return 0;) Tj
+0 -12 Td
+(034 | }) Tj
+0 -12 Td
+(035 | ) Tj
+0 -12 Td
+ET
+endstream
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000183 00000 n 
+0000000309 00000 n 
+trailer
+<< /Size 6 /Root 1 0 R >>
+startxref
+2260
+%%EOF

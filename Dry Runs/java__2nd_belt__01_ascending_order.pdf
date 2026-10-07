@@ -1,0 +1,169 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [4 0 R 6 0 R] /Count 2 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier >>
+endobj
+4 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 5 0 R >>
+endobj
+5 0 obj
+<< /Length 2370 >>
+stream
+BT
+/F1 8.5 Tf
+42 754 Td
+(DRY-RUN GUIDE | 01_ascending_order.java) Tj
+0 -12 Td
+(Source: java\\2nd_belt\\01_ascending_order.java) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(CORE BEHAVIOR) Tj
+0 -12 Td
+(Reads N integers and checks adjacent values; equality is allowed. It stops at the first) Tj
+0 -12 Td
+(decrease.) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(REPRESENTATIVE INPUT / CALL) Tj
+0 -12 Td
+(Input: N=4; values `1 2 2 5`.) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(STEP TRACE) Tj
+0 -12 Td
+(Every arr[i] is >= arr[i-1], so ascending stays true.) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(EXPECTED OUTPUT / RETURN) Tj
+0 -12 Td
+(`Yes`) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(ACTUAL SOURCE EXCERPT) Tj
+0 -12 Td
+(Verbatim lines from the source; long lines wrap. Source files were not modified.) Tj
+0 -12 Td
+(001 | /*) Tj
+0 -12 Td
+(002 | Question:) Tj
+0 -12 Td
+(003 | Write a program that takes N integers as input and checks whether the) Tj
+0 -12 Td
+(004 | sequence is in ascending order.) Tj
+0 -12 Td
+(005 | ) Tj
+0 -12 Td
+(006 | A sequence is considered ascending if every element is less than or equal) Tj
+0 -12 Td
+(007 | to the next element.) Tj
+0 -12 Td
+(008 | ) Tj
+0 -12 Td
+(009 | Input:) Tj
+0 -12 Td
+(010 | The first line contains an integer N.) Tj
+0 -12 Td
+(011 | The second line contains N space-separated integers.) Tj
+0 -12 Td
+(012 | ) Tj
+0 -12 Td
+(013 | Output:) Tj
+0 -12 Td
+(014 | Print "Yes" if the sequence is ascending, otherwise print "No".) Tj
+0 -12 Td
+(015 | */) Tj
+0 -12 Td
+(016 | ) Tj
+0 -12 Td
+(017 | import java.util.Scanner;) Tj
+0 -12 Td
+(018 | ) Tj
+0 -12 Td
+(019 | public class AscendingOrder {) Tj
+0 -12 Td
+(020 |     public static void main\(String[] args\) {) Tj
+0 -12 Td
+(021 |         Scanner sc = new Scanner\(System.in\);) Tj
+0 -12 Td
+(022 | ) Tj
+0 -12 Td
+(023 |         int n = sc.nextInt\(\);) Tj
+0 -12 Td
+(024 |         int[] arr = new int[n];) Tj
+0 -12 Td
+(025 | ) Tj
+0 -12 Td
+(026 |         for \(int i = 0; i < n; i++\) {) Tj
+0 -12 Td
+(027 |             arr[i] = sc.nextInt\(\);) Tj
+0 -12 Td
+(028 |         }) Tj
+0 -12 Td
+(029 | ) Tj
+0 -12 Td
+(030 |         boolean ascending = true;) Tj
+0 -12 Td
+(031 |         for \(int i = 1; i < n; i++\) {) Tj
+0 -12 Td
+(032 |             if \(arr[i] < arr[i - 1]\) {) Tj
+0 -12 Td
+(033 |                 ascending = false;) Tj
+0 -12 Td
+(034 |                 break;) Tj
+0 -12 Td
+(035 |             }) Tj
+0 -12 Td
+(036 |         }) Tj
+0 -12 Td
+(037 | ) Tj
+0 -12 Td
+ET
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 7 0 R >>
+endobj
+7 0 obj
+<< /Length 213 >>
+stream
+BT
+/F1 8.5 Tf
+42 754 Td
+(038 |         System.out.println\(ascending ? "Yes" : "No"\);) Tj
+0 -12 Td
+(039 |         sc.close\(\);) Tj
+0 -12 Td
+(040 |     }) Tj
+0 -12 Td
+(041 | }) Tj
+0 -12 Td
+(042 | ) Tj
+0 -12 Td
+ET
+endstream
+endobj
+xref
+0 8
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000121 00000 n 
+0000000189 00000 n 
+0000000315 00000 n 
+0000002737 00000 n 
+0000002863 00000 n 
+trailer
+<< /Size 8 /Root 1 0 R >>
+startxref
+3127
+%%EOF

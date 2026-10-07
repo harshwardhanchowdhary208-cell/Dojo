@@ -1,0 +1,189 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [4 0 R 6 0 R] /Count 2 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier >>
+endobj
+4 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 5 0 R >>
+endobj
+5 0 obj
+<< /Length 2301 >>
+stream
+BT
+/F1 8.5 Tf
+42 754 Td
+(DRY-RUN GUIDE | 02_armstrong_number.java) Tj
+0 -12 Td
+(Source: java\\2nd_belt\\02_armstrong_number.java) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(CORE BEHAVIOR) Tj
+0 -12 Td
+(Counts digits, sums each digit raised to that count using repeated multiplication, then) Tj
+0 -12 Td
+(compares to original. For input 0, digit count remains 0 but the empty sum is zero, so) Tj
+0 -12 Td
+(it reports Armstrong.) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(REPRESENTATIVE INPUT / CALL) Tj
+0 -12 Td
+(Input: `153`.) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(STEP TRACE) Tj
+0 -12 Td
+(digits=3; sum=1^3+5^3+3^3=1+125+27=153.) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(EXPECTED OUTPUT / RETURN) Tj
+0 -12 Td
+(`Armstrong`) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(ACTUAL SOURCE EXCERPT) Tj
+0 -12 Td
+(Verbatim lines from the source; long lines wrap. Source files were not modified.) Tj
+0 -12 Td
+(001 | /*) Tj
+0 -12 Td
+(002 | Question:) Tj
+0 -12 Td
+(003 | A number is an Armstrong number if the sum of each digit raised to the) Tj
+0 -12 Td
+(004 | power of the number of digits equals the original number.) Tj
+0 -12 Td
+(005 | ) Tj
+0 -12 Td
+(006 | Example:) Tj
+0 -12 Td
+(007 | 153 = 1^3 + 5^3 + 3^3 = 153) Tj
+0 -12 Td
+(008 | ) Tj
+0 -12 Td
+(009 | Input:) Tj
+0 -12 Td
+(010 | A single integer N.) Tj
+0 -12 Td
+(011 | ) Tj
+0 -12 Td
+(012 | Output:) Tj
+0 -12 Td
+(013 | Print "Armstrong" if the number is Armstrong, otherwise print "Not Armstrong".) Tj
+0 -12 Td
+(014 | */) Tj
+0 -12 Td
+(015 | ) Tj
+0 -12 Td
+(016 | import java.util.Scanner;) Tj
+0 -12 Td
+(017 | ) Tj
+0 -12 Td
+(018 | public class ArmstrongNumber {) Tj
+0 -12 Td
+(019 |     public static void main\(String[] args\) {) Tj
+0 -12 Td
+(020 |         Scanner sc = new Scanner\(System.in\);) Tj
+0 -12 Td
+(021 |         int n = sc.nextInt\(\);) Tj
+0 -12 Td
+(022 | ) Tj
+0 -12 Td
+(023 |         int original = n;) Tj
+0 -12 Td
+(024 |         int digits = 0;) Tj
+0 -12 Td
+(025 |         int temp = n;) Tj
+0 -12 Td
+(026 | ) Tj
+0 -12 Td
+(027 |         while \(temp != 0\) {) Tj
+0 -12 Td
+(028 |             digits++;) Tj
+0 -12 Td
+(029 |             temp /= 10;) Tj
+0 -12 Td
+(030 |         }) Tj
+0 -12 Td
+(031 | ) Tj
+0 -12 Td
+(032 |         int sum = 0;) Tj
+0 -12 Td
+(033 |         temp = n;) Tj
+0 -12 Td
+(034 | ) Tj
+0 -12 Td
+(035 |         while \(temp != 0\) {) Tj
+0 -12 Td
+(036 |             int digit = temp % 10;) Tj
+0 -12 Td
+ET
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 7 0 R >>
+endobj
+7 0 obj
+<< /Length 621 >>
+stream
+BT
+/F1 8.5 Tf
+42 754 Td
+(037 |             int power = 1;) Tj
+0 -12 Td
+(038 | ) Tj
+0 -12 Td
+(039 |             for \(int i = 0; i < digits; i++\) {) Tj
+0 -12 Td
+(040 |                 power *= digit;) Tj
+0 -12 Td
+(041 |             }) Tj
+0 -12 Td
+(042 | ) Tj
+0 -12 Td
+(043 |             sum += power;) Tj
+0 -12 Td
+(044 |             temp /= 10;) Tj
+0 -12 Td
+(045 |         }) Tj
+0 -12 Td
+(046 | ) Tj
+0 -12 Td
+(047 |         System.out.println\(sum == original ? "Armstrong" : "Not Armstrong"\);) Tj
+0 -12 Td
+(048 |         sc.close\(\);) Tj
+0 -12 Td
+(049 |     }) Tj
+0 -12 Td
+(050 | }) Tj
+0 -12 Td
+(051 | ) Tj
+0 -12 Td
+ET
+endstream
+endobj
+xref
+0 8
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000121 00000 n 
+0000000189 00000 n 
+0000000315 00000 n 
+0000002668 00000 n 
+0000002794 00000 n 
+trailer
+<< /Size 8 /Root 1 0 R >>
+startxref
+3466
+%%EOF

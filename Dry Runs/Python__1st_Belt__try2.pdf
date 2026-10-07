@@ -1,0 +1,107 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [4 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier >>
+endobj
+4 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 5 0 R >>
+endobj
+5 0 obj
+<< /Length 1681 >>
+stream
+BT
+/F1 8.5 Tf
+42 754 Td
+(DRY-RUN GUIDE | try2.py) Tj
+0 -12 Td
+(Source: Python\\1st_Belt\\try2.py) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(CORE BEHAVIOR) Tj
+0 -12 Td
+(Repeatedly reverses the entered string to test palindromicity, and stops on the first) Tj
+0 -12 Td
+(non-palindrome.) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(REPRESENTATIVE INPUT) Tj
+0 -12 Td
+(Enter `aba`, then `ab`.) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(STEP TRACE) Tj
+0 -12 Td
+(`aba` equals its reverse, so repeat. `ab` reverses to `ba`, so print the negative result) Tj
+0 -12 Td
+(and break.) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(EXPECTED OUTPUT / RETURN) Tj
+0 -12 Td
+(`Character is a palindrome`, then `Character is not a palindrome` \(and prompts\).) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(ACTUAL SOURCE EXCERPT) Tj
+0 -12 Td
+(Verbatim excerpt from Python\\1st_Belt\\try2.py; line numbers refer to the original file.) Tj
+0 -12 Td
+(No source was modified.) Tj
+0 -12 Td
+(001 | # Question: Solve the input-processing challenge implemented in this program.) Tj
+0 -12 Td
+(002 | # Add your solution here.) Tj
+0 -12 Td
+(003 | ) Tj
+0 -12 Td
+(004 | x=input\(\)) Tj
+0 -12 Td
+(005 | if x in'QWERTYUIOPASDFGHJKLZXCVBNM':) Tj
+0 -12 Td
+(006 |     print\("Upper case"\)) Tj
+0 -12 Td
+(007 | elif x in 'qwertyuiopasdfghjklzxcvbnm':) Tj
+0 -12 Td
+(008 |     print\('Lower case'\)) Tj
+0 -12 Td
+(009 | elif x in '1234567890':) Tj
+0 -12 Td
+(010 |     print\('Digit'\)) Tj
+0 -12 Td
+(011 | else:) Tj
+0 -12 Td
+(012 |     print\("Special case"\)) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(DRY-RUN NOTE) Tj
+0 -12 Td
+(Values are representative. For function-only modules the guide uses an illustrative) Tj
+0 -12 Td
+(direct call and explains its return; quirks/errors describe actual behavior.) Tj
+0 -12 Td
+ET
+endstream
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000183 00000 n 
+0000000309 00000 n 
+trailer
+<< /Size 6 /Root 1 0 R >>
+startxref
+2042
+%%EOF

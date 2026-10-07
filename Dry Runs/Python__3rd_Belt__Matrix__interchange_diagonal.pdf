@@ -1,0 +1,161 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [4 0 R 6 0 R] /Count 2 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier >>
+endobj
+4 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 5 0 R >>
+endobj
+5 0 obj
+<< /Length 2752 >>
+stream
+BT
+/F1 8.5 Tf
+42 754 Td
+(DRY-RUN GUIDE | interchange_diagonal.py) Tj
+0 -12 Td
+(Source: Python\\3rd_Belt\\Matrix\\interchange_diagonal.py) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(CORE BEHAVIOR) Tj
+0 -12 Td
+(Swaps the main and anti-diagonal entry in each row of a square matrix, then prints it.) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(REPRESENTATIVE INPUT) Tj
+0 -12 Td
+(2x2: `1 2` / `3 4`.) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(STEP TRACE) Tj
+0 -12 Td
+(Row 0 swap -> [2,1]; row 1 swap -> [4,3].) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(EXPECTED OUTPUT / RETURN) Tj
+0 -12 Td
+(Original `1 2` / `3 4`; after `2 1` / `4 3`.) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(ACTUAL SOURCE EXCERPT) Tj
+0 -12 Td
+(Verbatim excerpt from Python\\3rd_Belt\\Matrix\\interchange_diagonal.py; line numbers refer) Tj
+0 -12 Td
+(to the original file. No source was modified.) Tj
+0 -12 Td
+(001 | def interchange_diagonals\(matrix\):) Tj
+0 -12 Td
+(002 |     n = len\(matrix\)) Tj
+0 -12 Td
+(003 |     for i in range\(n\):) Tj
+0 -12 Td
+(004 |         # Swap the main diagonal element with the anti-diagonal element) Tj
+0 -12 Td
+(005 |         matrix[i][i], matrix[i][n - 1 - i] = matrix[i][n - 1 - i], matrix[i][i]) Tj
+0 -12 Td
+(006 | ) Tj
+0 -12 Td
+(007 | def print_matrix\(matrix\):) Tj
+0 -12 Td
+(008 |     for row in matrix:) Tj
+0 -12 Td
+(009 |         print\(" ".join\(map\(str, row\)\)\)) Tj
+0 -12 Td
+(010 | ) Tj
+0 -12 Td
+(011 | # Step 1: Get the dimensions of the square matrix) Tj
+0 -12 Td
+(012 | n = int\(input\("Enter the size of the square matrix \(N x N\): "\)\)) Tj
+0 -12 Td
+(013 | ) Tj
+0 -12 Td
+(014 | matrix = []) Tj
+0 -12 Td
+(015 | print\(f"Enter the elements row by row \(space-separated integers\):"\)) Tj
+0 -12 Td
+(016 | ) Tj
+0 -12 Td
+(017 | # Step 2: Dynamically take matrix input row by row) Tj
+0 -12 Td
+(018 | for i in range\(n\):) Tj
+0 -12 Td
+(019 |     row = list\(map\(int, input\(f"Row {i + 1}: "\).split\(\)\)\)) Tj
+0 -12 Td
+(020 |     # Validate if the user entered exactly N elements per row) Tj
+0 -12 Td
+(021 |     while len\(row\) != n:) Tj
+0 -12 Td
+(022 |         print\(f"Invalid input! Please enter exactly {n} elements."\)) Tj
+0 -12 Td
+(023 |         row = list\(map\(int, input\(f"Row {i + 1}: "\).split\(\)\)\)) Tj
+0 -12 Td
+(024 |     matrix.append\(row\)) Tj
+0 -12 Td
+(025 | ) Tj
+0 -12 Td
+(026 | print\("\\nOriginal Matrix:"\)) Tj
+0 -12 Td
+(027 | print_matrix\(matrix\)) Tj
+0 -12 Td
+(028 | ) Tj
+0 -12 Td
+(029 | # Step 3: Swap the diagonals) Tj
+0 -12 Td
+(030 | interchange_diagonals\(matrix\)) Tj
+0 -12 Td
+(031 | ) Tj
+0 -12 Td
+(032 | print\("\\nMatrix after interchanging diagonals:"\)) Tj
+0 -12 Td
+(033 | print_matrix\(matrix\)) Tj
+0 -12 Td
+(034 | ) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(DRY-RUN NOTE) Tj
+0 -12 Td
+(Values are representative. For function-only modules the guide uses an illustrative) Tj
+0 -12 Td
+ET
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 7 0 R >>
+endobj
+7 0 obj
+<< /Length 117 >>
+stream
+BT
+/F1 8.5 Tf
+42 754 Td
+(direct call and explains its return; quirks/errors describe actual behavior.) Tj
+0 -12 Td
+ET
+endstream
+endobj
+xref
+0 8
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000121 00000 n 
+0000000189 00000 n 
+0000000315 00000 n 
+0000003119 00000 n 
+0000003245 00000 n 
+trailer
+<< /Size 8 /Root 1 0 R >>
+startxref
+3413
+%%EOF

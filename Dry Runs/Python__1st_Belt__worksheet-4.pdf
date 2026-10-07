@@ -1,0 +1,123 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [4 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier >>
+endobj
+4 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 5 0 R >>
+endobj
+5 0 obj
+<< /Length 2036 >>
+stream
+BT
+/F1 8.5 Tf
+42 754 Td
+(DRY-RUN GUIDE | worksheet-4.py) Tj
+0 -12 Td
+(Source: Python\\1st_Belt\\worksheet-4.py) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(CORE BEHAVIOR) Tj
+0 -12 Td
+(Calculates a weighted average \(40%, 30%, 30%\) for three marks and assigns A/B/C/F using) Tj
+0 -12 Td
+(descending thresholds.) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(REPRESENTATIVE INPUT) Tj
+0 -12 Td
+(Marks `90`, `80`, `70`.) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(STEP TRACE) Tj
+0 -12 Td
+(Weighted value = 36+24+21=81.00. It is below 85 and at least 70, so choose grade B.) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(EXPECTED OUTPUT / RETURN) Tj
+0 -12 Td
+(`Weighted Average: 81.00`; `Grade: B`.) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(ACTUAL SOURCE EXCERPT) Tj
+0 -12 Td
+(Verbatim excerpt from Python\\1st_Belt\\worksheet-4.py; line numbers refer to the original) Tj
+0 -12 Td
+(file. No source was modified.) Tj
+0 -12 Td
+(001 | # Question: Solve the worksheet problem implemented in this program.) Tj
+0 -12 Td
+(002 | # Add your solution here.) Tj
+0 -12 Td
+(003 | ) Tj
+0 -12 Td
+(004 | sub1 = float\(input\("Enter Subject 1 marks: "\)\)) Tj
+0 -12 Td
+(005 | sub2 = float\(input\("Enter Subject 2 marks: "\)\)) Tj
+0 -12 Td
+(006 | sub3 = float\(input\("Enter Subject 3 marks: "\)\)) Tj
+0 -12 Td
+(007 | ) Tj
+0 -12 Td
+(008 | weighted_avg = \(sub1 * 0.40\) + \(sub2 * 0.30\) + \(sub3 * 0.30\)) Tj
+0 -12 Td
+(009 | ) Tj
+0 -12 Td
+(010 | if weighted_avg >= 85:) Tj
+0 -12 Td
+(011 |     grade = 'A') Tj
+0 -12 Td
+(012 | elif weighted_avg >= 70:) Tj
+0 -12 Td
+(013 |     grade = 'B') Tj
+0 -12 Td
+(014 | elif weighted_avg >= 50:) Tj
+0 -12 Td
+(015 |     grade = 'C') Tj
+0 -12 Td
+(016 | else:) Tj
+0 -12 Td
+(017 |     grade = 'F') Tj
+0 -12 Td
+(018 | ) Tj
+0 -12 Td
+(019 | print\(f"\\nWeighted Average: {weighted_avg:.2f}"\)) Tj
+0 -12 Td
+(020 | print\(f"Grade: {grade}"\)) Tj
+0 -12 Td
+(021 | ) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(DRY-RUN NOTE) Tj
+0 -12 Td
+(Values are representative. For function-only modules the guide uses an illustrative) Tj
+0 -12 Td
+(direct call and explains its return; quirks/errors describe actual behavior.) Tj
+0 -12 Td
+ET
+endstream
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000183 00000 n 
+0000000309 00000 n 
+trailer
+<< /Size 6 /Root 1 0 R >>
+startxref
+2397
+%%EOF

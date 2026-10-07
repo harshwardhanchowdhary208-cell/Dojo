@@ -1,0 +1,129 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [4 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier >>
+endobj
+4 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 5 0 R >>
+endobj
+5 0 obj
+<< /Length 2358 >>
+stream
+BT
+/F1 8.5 Tf
+42 754 Td
+(DRY-RUN GUIDE | temp.py) Tj
+0 -12 Td
+(Source: Python\\1st_Belt\\temp.py) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(CORE BEHAVIOR) Tj
+0 -12 Td
+(Converts between Celsius and Fahrenheit. temp.py branches on a normalized unit letter;) Tj
+0 -12 Td
+(temp2.py presents a menu and calls a conversion helper.) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(REPRESENTATIVE INPUT) Tj
+0 -12 Td
+(For temp.py: `25`, `C`. For temp2.py: choice `1`, then `25`.) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(STEP TRACE) Tj
+0 -12 Td
+(Select Celsius-to-Fahrenheit; compute 25*9/5+32=77.0; format to two decimal places.) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(EXPECTED OUTPUT / RETURN) Tj
+0 -12 Td
+(`25.0?C is equal to 77.00?F` \(menu prompts may also appear\).) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(ACTUAL SOURCE EXCERPT) Tj
+0 -12 Td
+(Verbatim excerpt from Python\\1st_Belt\\temp.py; line numbers refer to the original file.) Tj
+0 -12 Td
+(No source was modified.) Tj
+0 -12 Td
+(001 | # Question: Calculate a person's age from the present year and birth year.) Tj
+0 -12 Td
+(002 | # Add your solution here.) Tj
+0 -12 Td
+(003 | ) Tj
+0 -12 Td
+(004 | def celsius_to_fahrenheit\(celsius\):) Tj
+0 -12 Td
+(005 |     return \(celsius * 9/5\) + 32) Tj
+0 -12 Td
+(006 | ) Tj
+0 -12 Td
+(007 | def fahrenheit_to_celsius\(fahrenheit\):) Tj
+0 -12 Td
+(008 |     return \(fahrenheit - 32\) * 5/9) Tj
+0 -12 Td
+(009 | ) Tj
+0 -12 Td
+(010 | print\("1. Convert Celsius to Fahrenheit"\)) Tj
+0 -12 Td
+(011 | print\("2. Convert Fahrenheit to Celsius"\)) Tj
+0 -12 Td
+(012 | ) Tj
+0 -12 Td
+(013 | choice = input\("Choose 1 or 2: "\)) Tj
+0 -12 Td
+(014 | ) Tj
+0 -12 Td
+(015 | if choice == '1':) Tj
+0 -12 Td
+(016 |     c = float\(input\("Enter temperature in Celsius: "\)\)) Tj
+0 -12 Td
+(017 |     f = celsius_to_fahrenheit\(c\)) Tj
+0 -12 Td
+(018 |     print\(f"{c}?C is equal to {f:.2f}?F"\)) Tj
+0 -12 Td
+(019 | elif choice == '2':) Tj
+0 -12 Td
+(020 |     f = float\(input\("Enter temperature in Fahrenheit: "\)\)) Tj
+0 -12 Td
+(021 |     c = fahrenheit_to_celsius\(f\)) Tj
+0 -12 Td
+(022 |     print\(f"{f}?F is equal to {c:.2f}?C"\)) Tj
+0 -12 Td
+(023 | else:) Tj
+0 -12 Td
+(024 |     print\("Invalid choice."\)) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(DRY-RUN NOTE) Tj
+0 -12 Td
+(Values are representative. For function-only modules the guide uses an illustrative) Tj
+0 -12 Td
+(direct call and explains its return; quirks/errors describe actual behavior.) Tj
+0 -12 Td
+ET
+endstream
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000183 00000 n 
+0000000309 00000 n 
+trailer
+<< /Size 6 /Root 1 0 R >>
+startxref
+2719
+%%EOF

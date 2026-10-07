@@ -1,0 +1,119 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [4 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier >>
+endobj
+4 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 5 0 R >>
+endobj
+5 0 obj
+<< /Length 1806 >>
+stream
+BT
+/F1 8.5 Tf
+42 754 Td
+(DRY-RUN GUIDE | Linear_search.py) Tj
+0 -12 Td
+(Source: Dsa\\search\\Linear_search.py) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(CORE BEHAVIOR) Tj
+0 -12 Td
+(Checks values sequentially until target match or end.) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(REPRESENTATIVE INPUT) Tj
+0 -12 Td
+([4,8,2,9], target 2.) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(STEP TRACE) Tj
+0 -12 Td
+(4 miss; 8 miss; 2 matches at index 2.) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(EXPECTED OUTPUT / RETURN) Tj
+0 -12 Td
+(Index 2 / source-formatted found result.) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(ACTUAL SOURCE EXCERPT) Tj
+0 -12 Td
+(Verbatim excerpt from Dsa\\search\\Linear_search.py; line numbers refer to the original) Tj
+0 -12 Td
+(file. No source was modified.) Tj
+0 -12 Td
+(001 | def linear_search\(arr, target\):) Tj
+0 -12 Td
+(002 |     """) Tj
+0 -12 Td
+(003 |     Performs Linear Search to find the target in the list.) Tj
+0 -12 Td
+(004 |     Returns the index if found, else returns -1.) Tj
+0 -12 Td
+(005 |     """) Tj
+0 -12 Td
+(006 |     for i in range\(len\(arr\)\):) Tj
+0 -12 Td
+(007 |         if arr[i] == target:) Tj
+0 -12 Td
+(008 |             return i) Tj
+0 -12 Td
+(009 |     return -1) Tj
+0 -12 Td
+(010 | ) Tj
+0 -12 Td
+(011 | ) Tj
+0 -12 Td
+(012 | # Example Usage:) Tj
+0 -12 Td
+(013 | arr = [10, 25, 7, 42, 18]) Tj
+0 -12 Td
+(014 | target = 42) Tj
+0 -12 Td
+(015 | result = linear_search\(arr, target\)) Tj
+0 -12 Td
+(016 | ) Tj
+0 -12 Td
+(017 | if result != -1:) Tj
+0 -12 Td
+(018 |     print\(f"Element found at index {result}"\)) Tj
+0 -12 Td
+(019 | else:) Tj
+0 -12 Td
+(020 |     print\("Element not found"\)) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(DRY-RUN NOTE) Tj
+0 -12 Td
+(Values are representative. For function-only modules the guide uses an illustrative) Tj
+0 -12 Td
+(direct call and explains its return; quirks/errors describe actual behavior.) Tj
+0 -12 Td
+ET
+endstream
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000183 00000 n 
+0000000309 00000 n 
+trailer
+<< /Size 6 /Root 1 0 R >>
+startxref
+2167
+%%EOF

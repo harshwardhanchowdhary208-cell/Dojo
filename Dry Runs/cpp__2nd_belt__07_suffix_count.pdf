@@ -1,0 +1,175 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [4 0 R 6 0 R] /Count 2 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier >>
+endobj
+4 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 5 0 R >>
+endobj
+5 0 obj
+<< /Length 2420 >>
+stream
+BT
+/F1 8.5 Tf
+42 754 Td
+(DRY-RUN GUIDE | 07_suffix_count.cpp) Tj
+0 -12 Td
+(Source: cpp\\2nd_belt\\07_suffix_count.cpp) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(CORE BEHAVIOR) Tj
+0 -12 Td
+(Reads words and a suffix, checks whether each word ends with that suffix using compare) Tj
+0 -12 Td
+(on the trailing substring, and counts matches.) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(REPRESENTATIVE INPUT / CALL) Tj
+0 -12 Td
+(Input: N=4; words `cat hat cats that`; suffix `at`.) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(STEP TRACE) Tj
+0 -12 Td
+(`cat`, `hat`, and `that` end in `at`; `cats` does not. Count=3.) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(EXPECTED OUTPUT / RETURN) Tj
+0 -12 Td
+(`3`) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(ACTUAL SOURCE EXCERPT) Tj
+0 -12 Td
+(Verbatim lines from the source; long lines wrap. Source files were not modified.) Tj
+0 -12 Td
+(001 | /*) Tj
+0 -12 Td
+(002 | Question:) Tj
+0 -12 Td
+(003 | You are given a list of words and a suffix string. Your task is to count) Tj
+0 -12 Td
+(004 | how many words in the list end with the given suffix.) Tj
+0 -12 Td
+(005 | ) Tj
+0 -12 Td
+(006 | A suffix is a group of characters present at the end of a word.) Tj
+0 -12 Td
+(007 | ) Tj
+0 -12 Td
+(008 | Print the total number of words that have the given suffix.) Tj
+0 -12 Td
+(009 | ) Tj
+0 -12 Td
+(010 | Input:) Tj
+0 -12 Td
+(011 | The first line contains an integer N - the number of words.) Tj
+0 -12 Td
+(012 | The next input contains N words followed by the suffix string.) Tj
+0 -12 Td
+(013 | */) Tj
+0 -12 Td
+(014 | ) Tj
+0 -12 Td
+(015 | #include <iostream>) Tj
+0 -12 Td
+(016 | #include <vector>) Tj
+0 -12 Td
+(017 | #include <string>) Tj
+0 -12 Td
+(018 | using namespace std;) Tj
+0 -12 Td
+(019 | ) Tj
+0 -12 Td
+(020 | int main\(\) {) Tj
+0 -12 Td
+(021 |     int n;) Tj
+0 -12 Td
+(022 |     cin >> n;) Tj
+0 -12 Td
+(023 | ) Tj
+0 -12 Td
+(024 |     vector<string> words\(n\);) Tj
+0 -12 Td
+(025 |     for \(int i = 0; i < n; i++\) {) Tj
+0 -12 Td
+(026 |         cin >> words[i];) Tj
+0 -12 Td
+(027 |     }) Tj
+0 -12 Td
+(028 | ) Tj
+0 -12 Td
+(029 |     string suffix;) Tj
+0 -12 Td
+(030 |     cin >> suffix;) Tj
+0 -12 Td
+(031 | ) Tj
+0 -12 Td
+(032 |     int count = 0;) Tj
+0 -12 Td
+(033 | ) Tj
+0 -12 Td
+(034 |     for \(const string& word : words\) {) Tj
+0 -12 Td
+(035 |         if \(word.size\(\) >= suffix.size\(\) &&) Tj
+0 -12 Td
+(036 |             word.compare\(word.size\(\) - suffix.size\(\), suffix.size\(\), suffix\) == 0\) {) Tj
+0 -12 Td
+(037 |             count++;) Tj
+0 -12 Td
+ET
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 7 0 R >>
+endobj
+7 0 obj
+<< /Length 240 >>
+stream
+BT
+/F1 8.5 Tf
+42 754 Td
+(038 |         }) Tj
+0 -12 Td
+(039 |     }) Tj
+0 -12 Td
+(040 | ) Tj
+0 -12 Td
+(041 |     cout << count;) Tj
+0 -12 Td
+(042 | ) Tj
+0 -12 Td
+(043 |     return 0;) Tj
+0 -12 Td
+(044 | }) Tj
+0 -12 Td
+(045 | ) Tj
+0 -12 Td
+ET
+endstream
+endobj
+xref
+0 8
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000121 00000 n 
+0000000189 00000 n 
+0000000315 00000 n 
+0000002787 00000 n 
+0000002913 00000 n 
+trailer
+<< /Size 8 /Root 1 0 R >>
+startxref
+3204
+%%EOF

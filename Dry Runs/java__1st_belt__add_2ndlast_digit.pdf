@@ -1,0 +1,195 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [4 0 R 6 0 R] /Count 2 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier >>
+endobj
+4 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 5 0 R >>
+endobj
+5 0 obj
+<< /Length 2444 >>
+stream
+BT
+/F1 8.5 Tf
+42 754 Td
+(DRY-RUN GUIDE | add_2ndlast_digit.java) Tj
+0 -12 Td
+(Source: java\\1st_belt\\add_2ndlast_digit.java) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(CORE BEHAVIOR) Tj
+0 -12 Td
+(Reads two integers, rejects either value below 10, otherwise extracts each tens digit) Tj
+0 -12 Td
+(with \(n/10\)%10 and adds them. Negative inputs are also rejected by n<10.) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(REPRESENTATIVE INPUT / CALL) Tj
+0 -12 Td
+(Input: `123423 123456`.) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(STEP TRACE) Tj
+0 -12 Td
+(First tens digit=\(123423/10\)%10=2; second=\(123456/10\)%10=5; sum=7.) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(EXPECTED OUTPUT / RETURN) Tj
+0 -12 Td
+(`7`) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(ACTUAL SOURCE EXCERPT) Tj
+0 -12 Td
+(Verbatim lines from the source; long lines wrap. Source files were not modified.) Tj
+0 -12 Td
+(001 | /*) Tj
+0 -12 Td
+(002 | Challenge #11) Tj
+0 -12 Td
+(003 | ) Tj
+0 -12 Td
+(004 | Imagine you have two numbers num1 and num2.) Tj
+0 -12 Td
+(005 | Your task is to find the second-to-last digit of each number.) Tj
+0 -12 Td
+(006 | If the numbers are valid, you'll add these two special digits together. ) Tj
+0 -12 Td
+(007 | But if either number is too small to have a second-to-last digit, you'll say it's an) Tj
+0 -12 Td
+(      "Invalid number".) Tj
+0 -12 Td
+(008 | ) Tj
+0 -12 Td
+(009 | Steps:) Tj
+0 -12 Td
+(010 | 1. Choose two numbers.) Tj
+0 -12 Td
+(011 | 2. Check if these numbers are valid.) Tj
+0 -12 Td
+(012 | 3. Find the second-to-last digit of each number.) Tj
+0 -12 Td
+(013 | 4. Add these digits together.) Tj
+0 -12 Td
+(014 | 5. If either number is too small \(either of the number is less than 10 or a negative) Tj
+0 -12 Td
+(      number\), print it's an "Invalid number".) Tj
+0 -12 Td
+(015 | ) Tj
+0 -12 Td
+(016 | Example 1:) Tj
+0 -12 Td
+(017 | Input:) Tj
+0 -12 Td
+(018 | 123423) Tj
+0 -12 Td
+(019 | 123456) Tj
+0 -12 Td
+(020 | ) Tj
+0 -12 Td
+(021 | Output:) Tj
+0 -12 Td
+(022 | 7) Tj
+0 -12 Td
+(023 | */) Tj
+0 -12 Td
+(024 | ) Tj
+0 -12 Td
+(025 | import java.io.*;) Tj
+0 -12 Td
+(026 | import java.util.*;) Tj
+0 -12 Td
+(027 | ) Tj
+0 -12 Td
+(028 | public class Solution {) Tj
+0 -12 Td
+(029 | ) Tj
+0 -12 Td
+(030 |     public static void main\(String[] args\) {) Tj
+0 -12 Td
+(031 |         Scanner sc = new Scanner\(System.in\);) Tj
+0 -12 Td
+(032 |         ) Tj
+0 -12 Td
+(033 |         // Read the two input numbers) Tj
+0 -12 Td
+(034 |         int n1 = sc.nextInt\(\);) Tj
+0 -12 Td
+(035 |         int n2 = sc.nextInt\(\);) Tj
+0 -12 Td
+ET
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 7 0 R >>
+endobj
+7 0 obj
+<< /Length 906 >>
+stream
+BT
+/F1 8.5 Tf
+42 754 Td
+(036 |         ) Tj
+0 -12 Td
+(037 |         // Check if either number is less than 10 or negative) Tj
+0 -12 Td
+(038 |         if \(n1 < 10 || n2 < 10\) {) Tj
+0 -12 Td
+(039 |             System.out.println\("Invalid number"\);) Tj
+0 -12 Td
+(040 |         } else {) Tj
+0 -12 Td
+(041 |             // Find the second-to-last digit of each number) Tj
+0 -12 Td
+(042 |             int digit1 = \(n1 / 10\) % 10;) Tj
+0 -12 Td
+(043 |             int digit2 = \(n2 / 10\) % 10;) Tj
+0 -12 Td
+(044 |             ) Tj
+0 -12 Td
+(045 |             // Add the digits together and print the sum) Tj
+0 -12 Td
+(046 |             int sum = digit1 + digit2;) Tj
+0 -12 Td
+(047 |             System.out.println\(sum\);) Tj
+0 -12 Td
+(048 |         }) Tj
+0 -12 Td
+(049 |         ) Tj
+0 -12 Td
+(050 |         sc.close\(\);) Tj
+0 -12 Td
+(051 |     }) Tj
+0 -12 Td
+(052 | }) Tj
+0 -12 Td
+(053 | ) Tj
+0 -12 Td
+ET
+endstream
+endobj
+xref
+0 8
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000121 00000 n 
+0000000189 00000 n 
+0000000315 00000 n 
+0000002811 00000 n 
+0000002937 00000 n 
+trailer
+<< /Size 8 /Root 1 0 R >>
+startxref
+3894
+%%EOF

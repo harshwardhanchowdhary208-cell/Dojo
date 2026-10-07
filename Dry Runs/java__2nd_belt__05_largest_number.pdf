@@ -1,0 +1,135 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [4 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier >>
+endobj
+4 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 5 0 R >>
+endobj
+5 0 obj
+<< /Length 2064 >>
+stream
+BT
+/F1 8.5 Tf
+42 754 Td
+(DRY-RUN GUIDE | 05_largest_number.java) Tj
+0 -12 Td
+(Source: java\\2nd_belt\\05_largest_number.java) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(CORE BEHAVIOR) Tj
+0 -12 Td
+(Initializes largest to Integer.MIN_VALUE, then replaces it whenever the next input value) Tj
+0 -12 Td
+(is greater.) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(REPRESENTATIVE INPUT / CALL) Tj
+0 -12 Td
+(N=4; values `-9 -3 -12 -6`.) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(STEP TRACE) Tj
+0 -12 Td
+(First value -9 replaces MIN_VALUE; -3 replaces -9; -12 does not; -6 replaces -3.) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(EXPECTED OUTPUT / RETURN) Tj
+0 -12 Td
+(`-3`) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(ACTUAL SOURCE EXCERPT) Tj
+0 -12 Td
+(Verbatim lines from the source; long lines wrap. Source files were not modified.) Tj
+0 -12 Td
+(001 | /*) Tj
+0 -12 Td
+(002 | Question:) Tj
+0 -12 Td
+(003 | Given N integers, find the largest number in the list.) Tj
+0 -12 Td
+(004 | ) Tj
+0 -12 Td
+(005 | Input:) Tj
+0 -12 Td
+(006 | The first line contains an integer N.) Tj
+0 -12 Td
+(007 | The second line contains N integers.) Tj
+0 -12 Td
+(008 | ) Tj
+0 -12 Td
+(009 | Output:) Tj
+0 -12 Td
+(010 | Print the largest number.) Tj
+0 -12 Td
+(011 | */) Tj
+0 -12 Td
+(012 | ) Tj
+0 -12 Td
+(013 | import java.util.Scanner;) Tj
+0 -12 Td
+(014 | ) Tj
+0 -12 Td
+(015 | public class LargestNumber {) Tj
+0 -12 Td
+(016 |     public static void main\(String[] args\) {) Tj
+0 -12 Td
+(017 |         Scanner sc = new Scanner\(System.in\);) Tj
+0 -12 Td
+(018 |         int n = sc.nextInt\(\);) Tj
+0 -12 Td
+(019 | ) Tj
+0 -12 Td
+(020 |         int largest = Integer.MIN_VALUE;) Tj
+0 -12 Td
+(021 |         for \(int i = 0; i < n; i++\) {) Tj
+0 -12 Td
+(022 |             int value = sc.nextInt\(\);) Tj
+0 -12 Td
+(023 |             if \(value > largest\) {) Tj
+0 -12 Td
+(024 |                 largest = value;) Tj
+0 -12 Td
+(025 |             }) Tj
+0 -12 Td
+(026 |         }) Tj
+0 -12 Td
+(027 | ) Tj
+0 -12 Td
+(028 |         System.out.println\(largest\);) Tj
+0 -12 Td
+(029 |         sc.close\(\);) Tj
+0 -12 Td
+(030 |     }) Tj
+0 -12 Td
+(031 | }) Tj
+0 -12 Td
+(032 | ) Tj
+0 -12 Td
+ET
+endstream
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000183 00000 n 
+0000000309 00000 n 
+trailer
+<< /Size 6 /Root 1 0 R >>
+startxref
+2425
+%%EOF

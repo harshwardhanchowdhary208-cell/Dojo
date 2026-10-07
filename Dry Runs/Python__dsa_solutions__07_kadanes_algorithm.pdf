@@ -1,0 +1,121 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [4 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier >>
+endobj
+4 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 5 0 R >>
+endobj
+5 0 obj
+<< /Length 1901 >>
+stream
+BT
+/F1 8.5 Tf
+42 754 Td
+(DRY-RUN GUIDE | 07_kadanes_algorithm.py) Tj
+0 -12 Td
+(Source: Python\\dsa_solutions\\07_kadanes_algorithm.py) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(CORE BEHAVIOR) Tj
+0 -12 Td
+(Tracks the best subarray ending at each position and the best total seen \(Kadane's) Tj
+0 -12 Td
+(algorithm\).) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(REPRESENTATIVE INPUT) Tj
+0 -12 Td
+(`[-2,1,-3,4,-1,2,1,-5,4]`.) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(STEP TRACE) Tj
+0 -12 Td
+(The contiguous run 4,-1,2,1 yields running totals 4,3,5,6; global best=6.) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(EXPECTED OUTPUT / RETURN) Tj
+0 -12 Td
+(`6`) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(ACTUAL SOURCE EXCERPT) Tj
+0 -12 Td
+(Verbatim excerpt from Python\\dsa_solutions\\07_kadanes_algorithm.py; line numbers refer) Tj
+0 -12 Td
+(to the original file. No source was modified.) Tj
+0 -12 Td
+(001 | import sys) Tj
+0 -12 Td
+(002 | ) Tj
+0 -12 Td
+(003 | ) Tj
+0 -12 Td
+(004 | def main\(\):) Tj
+0 -12 Td
+(005 |     data = list\(map\(int, sys.stdin.read\(\).split\(\)\)\)) Tj
+0 -12 Td
+(006 |     if not data or data[0] == 0:) Tj
+0 -12 Td
+(007 |         print\(0\)) Tj
+0 -12 Td
+(008 |         return) Tj
+0 -12 Td
+(009 |     count = data[0]) Tj
+0 -12 Td
+(010 |     numbers = data[1:1 + count]) Tj
+0 -12 Td
+(011 |     current_sum = best_sum = numbers[0]) Tj
+0 -12 Td
+(012 |     for number in numbers[1:]:) Tj
+0 -12 Td
+(013 |         current_sum = max\(number, current_sum + number\)) Tj
+0 -12 Td
+(014 |         best_sum = max\(best_sum, current_sum\)) Tj
+0 -12 Td
+(015 |     print\(best_sum\)) Tj
+0 -12 Td
+(016 | ) Tj
+0 -12 Td
+(017 | ) Tj
+0 -12 Td
+(018 | if __name__ == "__main__":) Tj
+0 -12 Td
+(019 |     main\(\)) Tj
+0 -12 Td
+(020 | ) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(DRY-RUN NOTE) Tj
+0 -12 Td
+(Values are representative. For function-only modules the guide uses an illustrative) Tj
+0 -12 Td
+(direct call and explains its return; quirks/errors describe actual behavior.) Tj
+0 -12 Td
+ET
+endstream
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000183 00000 n 
+0000000309 00000 n 
+trailer
+<< /Size 6 /Root 1 0 R >>
+startxref
+2262
+%%EOF

@@ -1,0 +1,145 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [4 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier >>
+endobj
+4 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 5 0 R >>
+endobj
+5 0 obj
+<< /Length 2674 >>
+stream
+BT
+/F1 8.5 Tf
+42 754 Td
+(DRY-RUN GUIDE | check_prime.js) Tj
+0 -12 Td
+(Source: javascript\\2nd_belt\\check_prime.js) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(CORE BEHAVIOR) Tj
+0 -12 Td
+(Defines two primality functions; the top-level examples call the simple isPrime version.) Tj
+0 -12 Td
+(It rejects <=1, then checks divisors through sqrt\(num\).) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(REPRESENTATIVE INPUT / CALL) Tj
+0 -12 Td
+(Fixed calls: isPrime\(11\), isPrime\(4\), isPrime\(1\).) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(STEP TRACE) Tj
+0 -12 Td
+(11 has no divisor 2..3 -> true; 4 is divisible by 2 -> false; 1 is rejected by <=1.) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(EXPECTED OUTPUT / RETURN) Tj
+0 -12 Td
+(Lines: `true`, `false`, `false`.) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(ACTUAL SOURCE EXCERPT) Tj
+0 -12 Td
+(Verbatim lines from the source; long lines wrap. Source files were not modified.) Tj
+0 -12 Td
+(001 | // Question: Check whether a number is prime.) Tj
+0 -12 Td
+(002 | // Add your solution here.) Tj
+0 -12 Td
+(003 | ) Tj
+0 -12 Td
+(004 | function isPrimeOptimized\(num\) {) Tj
+0 -12 Td
+(005 |     if \(num <= 1\) return false;) Tj
+0 -12 Td
+(006 |     if \(num <= 3\) return true; // 2 and 3 are prime) Tj
+0 -12 Td
+(007 | ) Tj
+0 -12 Td
+(008 |     // Exclude all even numbers and multiples of 3) Tj
+0 -12 Td
+(009 |     if \(num % 2 === 0 || num % 3 === 0\) return false;) Tj
+0 -12 Td
+(010 | ) Tj
+0 -12 Td
+(011 |     // Check odd numbers up to the square root, skipping multiples of 2 and 3) Tj
+0 -12 Td
+(012 |     for \(let i = 5; i * i <= num; i += 6\) {) Tj
+0 -12 Td
+(013 |         if \(num % i === 0 || num % \(i + 2\) === 0\) return false;) Tj
+0 -12 Td
+(014 |     }) Tj
+0 -12 Td
+(015 | ) Tj
+0 -12 Td
+(016 |     return true;) Tj
+0 -12 Td
+(017 | }) Tj
+0 -12 Td
+(018 | // or) Tj
+0 -12 Td
+(019 | function isPrime\(num\) {) Tj
+0 -12 Td
+(020 |     // 1. Numbers less than or equal to 1 are not prime) Tj
+0 -12 Td
+(021 |     if \(num <= 1\) return false;) Tj
+0 -12 Td
+(022 |     ) Tj
+0 -12 Td
+(023 |     // 2. Check for factors up to the square root of the number) Tj
+0 -12 Td
+(024 |     for \(let i = 2; i <= Math.sqrt\(num\); i++\) {) Tj
+0 -12 Td
+(025 |         if \(num % i === 0\) {) Tj
+0 -12 Td
+(026 |             return false; // Found a factor, so it is not prime) Tj
+0 -12 Td
+(027 |         }) Tj
+0 -12 Td
+(028 |     }) Tj
+0 -12 Td
+(029 |     ) Tj
+0 -12 Td
+(030 |     return true; // No factors found, so it is prime) Tj
+0 -12 Td
+(031 | }) Tj
+0 -12 Td
+(032 | ) Tj
+0 -12 Td
+(033 | // Example usage:) Tj
+0 -12 Td
+(034 | console.log\(isPrime\(11\)\); // true) Tj
+0 -12 Td
+(035 | console.log\(isPrime\(4\)\);  // false) Tj
+0 -12 Td
+(036 | console.log\(isPrime\(1\)\);  // false) Tj
+0 -12 Td
+(037 | ) Tj
+0 -12 Td
+ET
+endstream
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000183 00000 n 
+0000000309 00000 n 
+trailer
+<< /Size 6 /Root 1 0 R >>
+startxref
+3035
+%%EOF

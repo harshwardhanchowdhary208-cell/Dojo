@@ -1,0 +1,99 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [4 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier >>
+endobj
+4 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 5 0 R >>
+endobj
+5 0 obj
+<< /Length 1512 >>
+stream
+BT
+/F1 8.5 Tf
+42 754 Td
+(DRY-RUN GUIDE | digonal.py) Tj
+0 -12 Td
+(Source: Python\\3rd_Belt\\Matrix\\digonal.py) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(CORE BEHAVIOR) Tj
+0 -12 Td
+(Sums the main-diagonal entries of a square matrix.) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(REPRESENTATIVE INPUT) Tj
+0 -12 Td
+(3x3 rows `1 2 3`, `4 5 6`, `7 8 9`.) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(STEP TRACE) Tj
+0 -12 Td
+(Take [0][0]=1, [1][1]=5, [2][2]=9; sum=15.) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(EXPECTED OUTPUT / RETURN) Tj
+0 -12 Td
+(`15`) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(ACTUAL SOURCE EXCERPT) Tj
+0 -12 Td
+(Verbatim excerpt from Python\\3rd_Belt\\Matrix\\digonal.py; line numbers refer to the) Tj
+0 -12 Td
+(original file. No source was modified.) Tj
+0 -12 Td
+(001 | # Question: Find the trace of a square matrix by summing its main diagonal elements.) Tj
+0 -12 Td
+(002 | # Add your solution here.) Tj
+0 -12 Td
+(003 | ) Tj
+0 -12 Td
+(004 | def trace_of_matrix\(matrix\):) Tj
+0 -12 Td
+(005 |     return sum\(matrix[i][i] for i in range\(len\(matrix\)\)\)) Tj
+0 -12 Td
+(006 | ) Tj
+0 -12 Td
+(007 | if __name__ == "__main__":) Tj
+0 -12 Td
+(008 |     n = int\(input\(\)\)) Tj
+0 -12 Td
+(009 |     matrix = [list\(map\(int, input\(\).split\(\)\)\) for _ in range\(n\)]) Tj
+0 -12 Td
+(010 |     print\(trace_of_matrix\(matrix\)\)) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(DRY-RUN NOTE) Tj
+0 -12 Td
+(Values are representative. For function-only modules the guide uses an illustrative) Tj
+0 -12 Td
+(direct call and explains its return; quirks/errors describe actual behavior.) Tj
+0 -12 Td
+ET
+endstream
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000183 00000 n 
+0000000309 00000 n 
+trailer
+<< /Size 6 /Root 1 0 R >>
+startxref
+1873
+%%EOF

@@ -1,0 +1,145 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [4 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier >>
+endobj
+4 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 5 0 R >>
+endobj
+5 0 obj
+<< /Length 2239 >>
+stream
+BT
+/F1 8.5 Tf
+42 754 Td
+(DRY-RUN GUIDE | 12_temperature.cpp) Tj
+0 -12 Td
+(Source: cpp\\1st_belt\\12_temperature.cpp) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(CORE BEHAVIOR) Tj
+0 -12 Td
+(Reads an integer temperature and selects a weather message from ascending threshold) Tj
+0 -12 Td
+(checks.) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(REPRESENTATIVE INPUT / CALL) Tj
+0 -12 Td
+(Input: `25`.) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(STEP TRACE) Tj
+0 -12 Td
+(25 is not below 0, 10, or 20; it is <=30, so that branch prints.) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(EXPECTED OUTPUT / RETURN) Tj
+0 -12 Td
+(`Normal in temp`) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(ACTUAL SOURCE EXCERPT) Tj
+0 -12 Td
+(Verbatim lines from the source; long lines wrap. Source files were not modified.) Tj
+0 -12 Td
+(001 | /*) Tj
+0 -12 Td
+(002 | Question:) Tj
+0 -12 Td
+(003 | Write a program to read the temperature in centigrade and display a) Tj
+0 -12 Td
+(004 | suitable message according to the temperature state below.) Tj
+0 -12 Td
+(005 | ) Tj
+0 -12 Td
+(006 | Temp < 0: Freezing weather) Tj
+0 -12 Td
+(007 | Temp 0-10: Very cold weather) Tj
+0 -12 Td
+(008 | Temp 11-20: Cold weather) Tj
+0 -12 Td
+(009 | Temp 21-30: Normal in temp) Tj
+0 -12 Td
+(010 | Temp 31-40: It's hot) Tj
+0 -12 Td
+(011 | Temp > 40: It's very hot) Tj
+0 -12 Td
+(012 | */) Tj
+0 -12 Td
+(013 | ) Tj
+0 -12 Td
+(014 | #include <iostream>) Tj
+0 -12 Td
+(015 | using namespace std;) Tj
+0 -12 Td
+(016 | ) Tj
+0 -12 Td
+(017 | int main\(\) {) Tj
+0 -12 Td
+(018 |     int temp;) Tj
+0 -12 Td
+(019 |     cin >> temp;) Tj
+0 -12 Td
+(020 | ) Tj
+0 -12 Td
+(021 |     if \(temp < 0\) {) Tj
+0 -12 Td
+(022 |         cout << "Freezing weather";) Tj
+0 -12 Td
+(023 |     } else if \(temp <= 10\) {) Tj
+0 -12 Td
+(024 |         cout << "Very cold weather";) Tj
+0 -12 Td
+(025 |     } else if \(temp <= 20\) {) Tj
+0 -12 Td
+(026 |         cout << "Cold weather";) Tj
+0 -12 Td
+(027 |     } else if \(temp <= 30\) {) Tj
+0 -12 Td
+(028 |         cout << "Normal in temp";) Tj
+0 -12 Td
+(029 |     } else if \(temp <= 40\) {) Tj
+0 -12 Td
+(030 |         cout << "It's hot";) Tj
+0 -12 Td
+(031 |     } else {) Tj
+0 -12 Td
+(032 |         cout << "It's very hot";) Tj
+0 -12 Td
+(033 |     }) Tj
+0 -12 Td
+(034 | ) Tj
+0 -12 Td
+(035 |     return 0;) Tj
+0 -12 Td
+(036 | }) Tj
+0 -12 Td
+(037 | ) Tj
+0 -12 Td
+ET
+endstream
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000183 00000 n 
+0000000309 00000 n 
+trailer
+<< /Size 6 /Root 1 0 R >>
+startxref
+2600
+%%EOF

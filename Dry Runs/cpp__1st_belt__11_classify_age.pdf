@@ -1,0 +1,173 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [4 0 R 6 0 R] /Count 2 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier >>
+endobj
+4 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 5 0 R >>
+endobj
+5 0 obj
+<< /Length 2322 >>
+stream
+BT
+/F1 8.5 Tf
+42 754 Td
+(DRY-RUN GUIDE | 11_classify_age.cpp) Tj
+0 -12 Td
+(Source: cpp\\1st_belt\\11_classify_age.cpp) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(CORE BEHAVIOR) Tj
+0 -12 Td
+(classifyAge returns one of four age labels. The ordered comparisons cover children 0-12,) Tj
+0 -12 Td
+(teens through 19, adults through 64, and seniors above 64. Negative ages fall through to) Tj
+0 -12 Td
+(Teenager in this implementation.) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(REPRESENTATIVE INPUT / CALL) Tj
+0 -12 Td
+(Input: `20`.) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(STEP TRACE) Tj
+0 -12 Td
+(age>=0 && age<=12 is false; age<=19 is false; age<=64 is true, so return Adult.) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(EXPECTED OUTPUT / RETURN) Tj
+0 -12 Td
+(`Adult`) Tj
+0 -12 Td
+() Tj
+0 -12 Td
+(ACTUAL SOURCE EXCERPT) Tj
+0 -12 Td
+(Verbatim lines from the source; long lines wrap. Source files were not modified.) Tj
+0 -12 Td
+(001 | /*) Tj
+0 -12 Td
+(002 | Question:) Tj
+0 -12 Td
+(003 | Write a program that takes the age of a person as input and classifies) Tj
+0 -12 Td
+(004 | them into one of the following age groups:) Tj
+0 -12 Td
+(005 | ) Tj
+0 -12 Td
+(006 | 0-12: "Child") Tj
+0 -12 Td
+(007 | 13-19: "Teenager") Tj
+0 -12 Td
+(008 | 20-64: "Adult") Tj
+0 -12 Td
+(009 | 65 and above: "Senior") Tj
+0 -12 Td
+(010 | ) Tj
+0 -12 Td
+(011 | Input Format:) Tj
+0 -12 Td
+(012 | A single integer representing the age of the person.) Tj
+0 -12 Td
+(013 | ) Tj
+0 -12 Td
+(014 | Output Format:) Tj
+0 -12 Td
+(015 | A single line containing the age group classification as a string:) Tj
+0 -12 Td
+(016 | "Child", "Teenager", "Adult", or "Senior".) Tj
+0 -12 Td
+(017 | */) Tj
+0 -12 Td
+(018 | ) Tj
+0 -12 Td
+(019 | #include <iostream>) Tj
+0 -12 Td
+(020 | #include <string>) Tj
+0 -12 Td
+(021 | using namespace std;) Tj
+0 -12 Td
+(022 | ) Tj
+0 -12 Td
+(023 | string classifyAge\(int age\) {) Tj
+0 -12 Td
+(024 |     if \(age >= 0 && age <= 12\) {) Tj
+0 -12 Td
+(025 |         return "Child";) Tj
+0 -12 Td
+(026 |     } else if \(age <= 19\) {) Tj
+0 -12 Td
+(027 |         return "Teenager";) Tj
+0 -12 Td
+(028 |     } else if \(age <= 64\) {) Tj
+0 -12 Td
+(029 |         return "Adult";) Tj
+0 -12 Td
+(030 |     } else {) Tj
+0 -12 Td
+(031 |         return "Senior";) Tj
+0 -12 Td
+(032 |     }) Tj
+0 -12 Td
+(033 | }) Tj
+0 -12 Td
+(034 | ) Tj
+0 -12 Td
+(035 | int main\(\) {) Tj
+0 -12 Td
+(036 |     int age;) Tj
+0 -12 Td
+ET
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 7 0 R >>
+endobj
+7 0 obj
+<< /Length 233 >>
+stream
+BT
+/F1 8.5 Tf
+42 754 Td
+(037 |     cin >> age;) Tj
+0 -12 Td
+(038 | ) Tj
+0 -12 Td
+(039 |     cout << classifyAge\(age\);) Tj
+0 -12 Td
+(040 | ) Tj
+0 -12 Td
+(041 |     return 0;) Tj
+0 -12 Td
+(042 | }) Tj
+0 -12 Td
+(043 | ) Tj
+0 -12 Td
+ET
+endstream
+endobj
+xref
+0 8
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000121 00000 n 
+0000000189 00000 n 
+0000000315 00000 n 
+0000002689 00000 n 
+0000002815 00000 n 
+trailer
+<< /Size 8 /Root 1 0 R >>
+startxref
+3099
+%%EOF

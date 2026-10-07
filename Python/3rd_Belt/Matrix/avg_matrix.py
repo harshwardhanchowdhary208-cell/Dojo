@@ -7,7 +7,7 @@ def average_of_matrix(matrix):
         return 0.0
 
     total_sum = sum(sum(row) for row in matrix)
-    total_elements = rows*cols
+    total_elements = rows * cols
     return total_sum / total_elements
 
 
