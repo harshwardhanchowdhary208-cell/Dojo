@@ -1,0 +1,53 @@
+Sorting Methods in DSA
+
+This document summarizes the sorting methods present in the sort folder.
+
+1) Bubble Sort
+- Idea: Repeatedly compare adjacent elements and swap them if they are out of order.
+- Best for: learning sorting basics and small lists.
+- Time Complexity: O(n^2) average/worst, O(n) best for nearly sorted arrays.
+- Space Complexity: O(1).
+
+2) Selection Sort
+- Idea: Find the smallest value in the unsorted part and place it in the correct position.
+- Best for: simple implementation and small arrays.
+- Time Complexity: O(n^2) all cases.
+- Space Complexity: O(1).
+
+3) Insertion Sort
+- Idea: Build the final sorted array one item at a time by inserting each item into the proper position.
+- Best for: small arrays or nearly sorted data.
+- Time Complexity: O(n) best, O(n^2) average/worst.
+- Space Complexity: O(1).
+
+4) Merge Sort
+- Idea: Split the array into halves, sort each half, and merge them back together.
+- Best for: large datasets and stable sorting.
+- Time Complexity: O(n log n) all cases.
+- Space Complexity: O(n).
+
+5) Quick Sort
+- Idea: Pick a pivot, partition the array, and recursively sort the partitions.
+- Best for: fast general-purpose sorting.
+- Time Complexity: O(n log n) average, O(n^2) worst case.
+- Space Complexity: O(log n) average, O(n) worst.
+
+6) Keden's Sort
+- Idea: Included as an additional custom/reference sorting note in the folder.
+- Best for: understanding custom implementations and comparison with standard algorithms.
+- Note: If you are referring to the file named kenen's.py, it is actually a maximum-subarray program rather than a conventional sorting algorithm.
+- Complexity: Depends on the custom logic written in that file.
+
+Note: The file named kenen's.py in this folder is not a standard sorting algorithm; it contains a maximum subarray problem implementation.
+
+Summary Table
+
+Method            Time                Space      Best Use
+Bubble Sort       O(n^2)              O(1)       Small/simple examples
+Selection Sort    O(n^2)              O(1)       Simple sorting
+Insertion Sort    O(n) best / O(n^2)   O(1)       Small/nearly sorted lists
+Merge Sort        O(n log n)          O(n)       Large stable datasets
+Quick Sort        O(n log n) avg      O(log n)   Fast general sorting
+Keden's Sort      Custom/reference    Varies     Included as an extra method
+
+
