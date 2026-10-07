@@ -1,0 +1,16 @@
+/* Module 2 Practice Assessment — Task Tracker utilities.
+   This task is graded on your JavaScript in src/app.js only.
+   No CSS is required or tested. This file just keeps the page tidy. */
+
+   body {
+    font-family: system-ui, -apple-system, sans-serif;
+    color: #1a1a2e;
+    margin: 1rem;
+  }
+  
+  code {
+    background: #f0f0f5;
+    padding: 0 0.25rem;
+    border-radius: 4px;
+  }
+  
